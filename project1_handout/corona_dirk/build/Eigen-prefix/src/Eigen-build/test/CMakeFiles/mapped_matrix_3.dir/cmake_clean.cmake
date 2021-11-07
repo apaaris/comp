@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mapped_matrix_3.dir/mapped_matrix.cpp.o"
-  "CMakeFiles/mapped_matrix_3.dir/mapped_matrix.cpp.o.d"
-  "mapped_matrix_3"
   "mapped_matrix_3.pdb"
+  "mapped_matrix_3"
 )
 
 # Per-language clean rules from dependency scanning.

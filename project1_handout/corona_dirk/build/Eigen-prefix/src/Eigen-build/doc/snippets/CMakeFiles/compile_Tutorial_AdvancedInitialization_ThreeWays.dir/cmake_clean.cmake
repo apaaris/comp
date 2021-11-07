@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_Tutorial_AdvancedInitialization_ThreeWays.dir/compile_Tutorial_AdvancedInitialization_ThreeWays.cpp.o"
-  "CMakeFiles/compile_Tutorial_AdvancedInitialization_ThreeWays.dir/compile_Tutorial_AdvancedInitialization_ThreeWays.cpp.o.d"
-  "compile_Tutorial_AdvancedInitialization_ThreeWays"
   "compile_Tutorial_AdvancedInitialization_ThreeWays.pdb"
+  "compile_Tutorial_AdvancedInitialization_ThreeWays"
 )
 
 # Per-language clean rules from dependency scanning.

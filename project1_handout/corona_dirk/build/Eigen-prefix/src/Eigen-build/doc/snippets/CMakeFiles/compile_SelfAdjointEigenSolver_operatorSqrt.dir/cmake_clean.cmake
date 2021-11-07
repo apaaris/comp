@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_SelfAdjointEigenSolver_operatorSqrt.dir/compile_SelfAdjointEigenSolver_operatorSqrt.cpp.o"
-  "CMakeFiles/compile_SelfAdjointEigenSolver_operatorSqrt.dir/compile_SelfAdjointEigenSolver_operatorSqrt.cpp.o.d"
-  "compile_SelfAdjointEigenSolver_operatorSqrt"
   "compile_SelfAdjointEigenSolver_operatorSqrt.pdb"
+  "compile_SelfAdjointEigenSolver_operatorSqrt"
 )
 
 # Per-language clean rules from dependency scanning.

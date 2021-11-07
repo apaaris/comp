@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/product_trmm_11.dir/product_trmm.cpp.o"
-  "CMakeFiles/product_trmm_11.dir/product_trmm.cpp.o.d"
-  "product_trmm_11"
   "product_trmm_11.pdb"
+  "product_trmm_11"
 )
 
 # Per-language clean rules from dependency scanning.

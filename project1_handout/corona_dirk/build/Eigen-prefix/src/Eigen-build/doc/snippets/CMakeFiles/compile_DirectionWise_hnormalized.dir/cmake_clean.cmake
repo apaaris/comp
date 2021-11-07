@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_DirectionWise_hnormalized.dir/compile_DirectionWise_hnormalized.cpp.o"
-  "CMakeFiles/compile_DirectionWise_hnormalized.dir/compile_DirectionWise_hnormalized.cpp.o.d"
-  "compile_DirectionWise_hnormalized"
   "compile_DirectionWise_hnormalized.pdb"
+  "compile_DirectionWise_hnormalized"
 )
 
 # Per-language clean rules from dependency scanning.

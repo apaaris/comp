@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_MatrixBase_template_int_int_topLeftCorner.dir/compile_MatrixBase_template_int_int_topLeftCorner.cpp.o"
-  "CMakeFiles/compile_MatrixBase_template_int_int_topLeftCorner.dir/compile_MatrixBase_template_int_int_topLeftCorner.cpp.o.d"
-  "compile_MatrixBase_template_int_int_topLeftCorner"
   "compile_MatrixBase_template_int_int_topLeftCorner.pdb"
+  "compile_MatrixBase_template_int_int_topLeftCorner"
 )
 
 # Per-language clean rules from dependency scanning.

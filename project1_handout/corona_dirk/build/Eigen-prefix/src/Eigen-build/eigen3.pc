@@ -1,4 +1,4 @@
-prefix=/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen_install
+prefix=/home/cmea/comp/project1_handout/corona_dirk/build/Eigen_install
 exec_prefix=${prefix}
 
 Name: Eigen3

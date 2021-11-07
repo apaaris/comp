@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/levenberg_marquardt.dir/levenberg_marquardt.cpp.o"
-  "CMakeFiles/levenberg_marquardt.dir/levenberg_marquardt.cpp.o.d"
-  "levenberg_marquardt"
   "levenberg_marquardt.pdb"
+  "levenberg_marquardt"
 )
 
 # Per-language clean rules from dependency scanning.

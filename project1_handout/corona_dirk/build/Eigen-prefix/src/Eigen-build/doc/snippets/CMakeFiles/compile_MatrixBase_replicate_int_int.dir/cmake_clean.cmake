@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_MatrixBase_replicate_int_int.dir/compile_MatrixBase_replicate_int_int.cpp.o"
-  "CMakeFiles/compile_MatrixBase_replicate_int_int.dir/compile_MatrixBase_replicate_int_int.cpp.o.d"
-  "compile_MatrixBase_replicate_int_int"
   "compile_MatrixBase_replicate_int_int.pdb"
+  "compile_MatrixBase_replicate_int_int"
 )
 
 # Per-language clean rules from dependency scanning.

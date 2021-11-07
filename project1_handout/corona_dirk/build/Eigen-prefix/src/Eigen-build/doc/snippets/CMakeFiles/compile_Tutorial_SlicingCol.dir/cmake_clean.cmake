@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_Tutorial_SlicingCol.dir/compile_Tutorial_SlicingCol.cpp.o"
-  "CMakeFiles/compile_Tutorial_SlicingCol.dir/compile_Tutorial_SlicingCol.cpp.o.d"
-  "compile_Tutorial_SlicingCol"
   "compile_Tutorial_SlicingCol.pdb"
+  "compile_Tutorial_SlicingCol"
 )
 
 # Per-language clean rules from dependency scanning.

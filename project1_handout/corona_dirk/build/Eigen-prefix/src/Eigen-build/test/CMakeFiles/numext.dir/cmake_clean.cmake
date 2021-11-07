@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/numext.dir/numext.cpp.o"
-  "CMakeFiles/numext.dir/numext.cpp.o.d"
-  "numext"
   "numext.pdb"
+  "numext"
 )
 
 # Per-language clean rules from dependency scanning.

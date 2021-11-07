@@ -1,14 +1,21 @@
-
-# Consider dependencies only in project.
-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
-
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
   )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/unsupported/doc/examples/FFT.cpp" "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/unsupported/doc/examples/CMakeFiles/example_FFT.dir/FFT.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# The set of dependency files which are needed:
-set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/unsupported/doc/examples/FFT.cpp" "unsupported/doc/examples/CMakeFiles/example_FFT.dir/FFT.cpp.o" "gcc" "unsupported/doc/examples/CMakeFiles/example_FFT.dir/FFT.cpp.o.d"
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "unsupported/doc/examples"
+  "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/unsupported/doc/examples"
+  "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen"
+  "."
+  "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/unsupported/doc/examples/../../../unsupported"
+  "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/unsupported/doc/examples/../../../unsupported/test"
   )
 
 # Targets to which this target links.

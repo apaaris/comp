@@ -1,8 +1,8 @@
-# Install script for directory: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/unsupported/Eigen/CXX11
+# Install script for directory: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen/unsupported/Eigen/CXX11
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen_install")
+  set(CMAKE_INSTALL_PREFIX "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen_install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -29,7 +29,7 @@ endif()
 
 # Install shared libraries without execute permission?
 if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "0")
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
 # Is this installation the result of a crosscompile?
@@ -37,20 +37,15 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
-endif()
-
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/eigen3/unsupported/Eigen/CXX11" TYPE FILE FILES
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/unsupported/Eigen/CXX11/Tensor"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/unsupported/Eigen/CXX11/TensorSymmetry"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/unsupported/Eigen/CXX11/ThreadPool"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/unsupported/Eigen/CXX11/Tensor"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/unsupported/Eigen/CXX11/TensorSymmetry"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/unsupported/Eigen/CXX11/ThreadPool"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/eigen3/unsupported/Eigen/CXX11" TYPE DIRECTORY FILES "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/unsupported/Eigen/CXX11/src" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/eigen3/unsupported/Eigen/CXX11" TYPE DIRECTORY FILES "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/unsupported/Eigen/CXX11/src" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 

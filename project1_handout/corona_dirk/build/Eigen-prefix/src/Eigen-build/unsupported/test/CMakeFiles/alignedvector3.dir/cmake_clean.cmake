@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/alignedvector3.dir/alignedvector3.cpp.o"
-  "CMakeFiles/alignedvector3.dir/alignedvector3.cpp.o.d"
-  "alignedvector3"
   "alignedvector3.pdb"
+  "alignedvector3"
 )
 
 # Per-language clean rules from dependency scanning.

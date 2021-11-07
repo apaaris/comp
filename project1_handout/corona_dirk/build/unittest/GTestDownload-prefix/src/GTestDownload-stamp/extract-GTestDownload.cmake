@@ -1,7 +1,7 @@
 # Make file names absolute:
 #
-get_filename_component(filename "/home/apaaris/comp/project1_handout/corona_dirk/build/unittest/GTestDownload-prefix/src/release-1.8.1.zip" ABSOLUTE)
-get_filename_component(directory "/home/apaaris/comp/project1_handout/corona_dirk/build/unittest/gtest_source" ABSOLUTE)
+get_filename_component(filename "/home/cmea/comp/project1_handout/corona_dirk/build/unittest/GTestDownload-prefix/src/release-1.8.1.zip" ABSOLUTE)
+get_filename_component(directory "/home/cmea/comp/project1_handout/corona_dirk/build/unittest/gtest_source" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

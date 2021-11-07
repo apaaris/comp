@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_Tridiagonalization_compute.dir/compile_Tridiagonalization_compute.cpp.o"
-  "CMakeFiles/compile_Tridiagonalization_compute.dir/compile_Tridiagonalization_compute.cpp.o.d"
-  "compile_Tridiagonalization_compute"
   "compile_Tridiagonalization_compute.pdb"
+  "compile_Tridiagonalization_compute"
 )
 
 # Per-language clean rules from dependency scanning.

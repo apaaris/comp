@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TutorialInplaceLU.dir/TutorialInplaceLU.cpp.o"
-  "CMakeFiles/TutorialInplaceLU.dir/TutorialInplaceLU.cpp.o.d"
-  "TutorialInplaceLU"
   "TutorialInplaceLU.pdb"
+  "TutorialInplaceLU"
 )
 
 # Per-language clean rules from dependency scanning.

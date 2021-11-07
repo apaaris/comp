@@ -1,1 +1,1 @@
-/usr/bin/c++ -rdynamic CMakeFiles/dirkconv.dir/dirkconv.cpp.o -o dirkconv 
+/usr/bin/c++    -rdynamic CMakeFiles/dirkconv.dir/dirkconv.cpp.o  -o dirkconv 

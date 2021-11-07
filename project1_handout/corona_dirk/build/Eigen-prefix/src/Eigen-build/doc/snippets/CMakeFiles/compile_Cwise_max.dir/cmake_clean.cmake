@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_Cwise_max.dir/compile_Cwise_max.cpp.o"
-  "CMakeFiles/compile_Cwise_max.dir/compile_Cwise_max.cpp.o.d"
-  "compile_Cwise_max"
   "compile_Cwise_max.pdb"
+  "compile_Cwise_max"
 )
 
 # Per-language clean rules from dependency scanning.

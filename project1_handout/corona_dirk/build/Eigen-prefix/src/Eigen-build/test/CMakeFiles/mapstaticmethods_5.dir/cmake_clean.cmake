@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mapstaticmethods_5.dir/mapstaticmethods.cpp.o"
-  "CMakeFiles/mapstaticmethods_5.dir/mapstaticmethods.cpp.o.d"
-  "mapstaticmethods_5"
   "mapstaticmethods_5.pdb"
+  "mapstaticmethods_5"
 )
 
 # Per-language clean rules from dependency scanning.

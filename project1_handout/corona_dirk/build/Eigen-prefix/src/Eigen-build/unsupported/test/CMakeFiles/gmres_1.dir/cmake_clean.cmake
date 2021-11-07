@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gmres_1.dir/gmres.cpp.o"
-  "CMakeFiles/gmres_1.dir/gmres.cpp.o.d"
-  "gmres_1"
   "gmres_1.pdb"
+  "gmres_1"
 )
 
 # Per-language clean rules from dependency scanning.

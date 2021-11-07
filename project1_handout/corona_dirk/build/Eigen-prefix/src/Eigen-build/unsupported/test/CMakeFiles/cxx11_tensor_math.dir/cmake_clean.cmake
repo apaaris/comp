@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cxx11_tensor_math.dir/cxx11_tensor_math.cpp.o"
-  "CMakeFiles/cxx11_tensor_math.dir/cxx11_tensor_math.cpp.o.d"
-  "cxx11_tensor_math"
   "cxx11_tensor_math.pdb"
+  "cxx11_tensor_math"
 )
 
 # Per-language clean rules from dependency scanning.

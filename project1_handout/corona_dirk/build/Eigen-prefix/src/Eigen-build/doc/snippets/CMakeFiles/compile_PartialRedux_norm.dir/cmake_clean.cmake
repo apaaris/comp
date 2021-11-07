@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_PartialRedux_norm.dir/compile_PartialRedux_norm.cpp.o"
-  "CMakeFiles/compile_PartialRedux_norm.dir/compile_PartialRedux_norm.cpp.o.d"
-  "compile_PartialRedux_norm"
   "compile_PartialRedux_norm.pdb"
+  "compile_PartialRedux_norm"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,9 +1,9 @@
 
-set(CTEST_SOURCE_DIRECTORY  "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen")
-set(CTEST_BINARY_DIRECTORY  "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build")
+set(CTEST_SOURCE_DIRECTORY  "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen")
+set(CTEST_BINARY_DIRECTORY  "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build")
 set(CTEST_CMAKE_GENERATOR   "Unix Makefiles")
-set(CTEST_BUILD_NAME        "linux-5.14.16-201.fc34.x86_64-g++-11.2.1-sse2-64bit")
-set(CTEST_SITE              "fedora")
+set(CTEST_BUILD_NAME        "linux-4.15.0-159-generic-_-7.5.0-sse2-64bit")
+set(CTEST_SITE              "CMEA-Lubuntu")
 
 set(MODEL Experimental)
 if(${CTEST_SCRIPT_ARG} MATCHES Nightly)

@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_Cwise_boolean_or.dir/compile_Cwise_boolean_or.cpp.o"
-  "CMakeFiles/compile_Cwise_boolean_or.dir/compile_Cwise_boolean_or.cpp.o.d"
-  "compile_Cwise_boolean_or"
   "compile_Cwise_boolean_or.pdb"
+  "compile_Cwise_boolean_or"
 )
 
 # Per-language clean rules from dependency scanning.

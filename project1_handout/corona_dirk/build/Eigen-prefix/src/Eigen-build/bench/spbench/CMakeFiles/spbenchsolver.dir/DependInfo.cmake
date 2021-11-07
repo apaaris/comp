@@ -1,14 +1,19 @@
-
-# Consider dependencies only in project.
-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
-
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
   )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/bench/spbench/spbenchsolver.cpp" "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/bench/spbench/CMakeFiles/spbenchsolver.dir/spbenchsolver.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# The set of dependency files which are needed:
-set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/bench/spbench/spbenchsolver.cpp" "bench/spbench/CMakeFiles/spbenchsolver.dir/spbenchsolver.cpp.o" "gcc" "bench/spbench/CMakeFiles/spbenchsolver.dir/spbenchsolver.cpp.o.d"
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "bench/spbench"
+  "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/bench/spbench"
+  "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen"
+  "."
   )
 
 # Targets to which this target links.

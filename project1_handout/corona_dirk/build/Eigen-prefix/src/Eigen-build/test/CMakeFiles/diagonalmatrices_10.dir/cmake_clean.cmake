@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/diagonalmatrices_10.dir/diagonalmatrices.cpp.o"
-  "CMakeFiles/diagonalmatrices_10.dir/diagonalmatrices.cpp.o.d"
-  "diagonalmatrices_10"
   "diagonalmatrices_10.pdb"
+  "diagonalmatrices_10"
 )
 
 # Per-language clean rules from dependency scanning.

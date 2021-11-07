@@ -1,12 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/unittest.dir/main.cpp.o"
-  "CMakeFiles/unittest.dir/main.cpp.o.d"
-  "CMakeFiles/unittest.dir/test_dirk.cpp.o"
-  "CMakeFiles/unittest.dir/test_dirk.cpp.o.d"
   "CMakeFiles/unittest.dir/test_jacobian.cpp.o"
-  "CMakeFiles/unittest.dir/test_jacobian.cpp.o.d"
-  "unittest"
+  "CMakeFiles/unittest.dir/test_dirk.cpp.o"
   "unittest.pdb"
+  "unittest"
 )
 
 # Per-language clean rules from dependency scanning.

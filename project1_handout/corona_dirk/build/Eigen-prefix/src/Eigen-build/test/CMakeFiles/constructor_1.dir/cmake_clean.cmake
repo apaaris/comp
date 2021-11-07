@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/constructor_1.dir/constructor.cpp.o"
-  "CMakeFiles/constructor_1.dir/constructor.cpp.o.d"
-  "constructor_1"
   "constructor_1.pdb"
+  "constructor_1"
 )
 
 # Per-language clean rules from dependency scanning.

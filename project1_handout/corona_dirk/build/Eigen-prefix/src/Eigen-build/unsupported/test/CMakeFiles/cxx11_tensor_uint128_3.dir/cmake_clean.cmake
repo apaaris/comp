@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cxx11_tensor_uint128_3.dir/cxx11_tensor_uint128.cpp.o"
-  "CMakeFiles/cxx11_tensor_uint128_3.dir/cxx11_tensor_uint128.cpp.o.d"
-  "cxx11_tensor_uint128_3"
   "cxx11_tensor_uint128_3.pdb"
+  "cxx11_tensor_uint128_3"
 )
 
 # Per-language clean rules from dependency scanning.

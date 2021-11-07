@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_MatrixBase_cwiseMax.dir/compile_MatrixBase_cwiseMax.cpp.o"
-  "CMakeFiles/compile_MatrixBase_cwiseMax.dir/compile_MatrixBase_cwiseMax.cpp.o.d"
-  "compile_MatrixBase_cwiseMax"
   "compile_MatrixBase_cwiseMax.pdb"
+  "compile_MatrixBase_cwiseMax"
 )
 
 # Per-language clean rules from dependency scanning.

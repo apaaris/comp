@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_EigenSolver_eigenvalues.dir/compile_EigenSolver_eigenvalues.cpp.o"
-  "CMakeFiles/compile_EigenSolver_eigenvalues.dir/compile_EigenSolver_eigenvalues.cpp.o.d"
-  "compile_EigenSolver_eigenvalues"
   "compile_EigenSolver_eigenvalues.pdb"
+  "compile_EigenSolver_eigenvalues"
 )
 
 # Per-language clean rules from dependency scanning.

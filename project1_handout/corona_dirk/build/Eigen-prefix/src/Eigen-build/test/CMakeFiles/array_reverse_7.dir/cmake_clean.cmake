@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/array_reverse_7.dir/array_reverse.cpp.o"
-  "CMakeFiles/array_reverse_7.dir/array_reverse.cpp.o.d"
-  "array_reverse_7"
   "array_reverse_7.pdb"
+  "array_reverse_7"
 )
 
 # Per-language clean rules from dependency scanning.

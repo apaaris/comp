@@ -1,5 +1,5 @@
-libdir=/home/apaaris/comp/project1_handout/corona_dirk/build/unittest/gtest_binary/lib64
-includedir=/home/apaaris/comp/project1_handout/corona_dirk/build/unittest/gtest_binary/include
+libdir=/home/cmea/comp/project1_handout/corona_dirk/build/unittest/gtest_binary/lib
+includedir=/home/cmea/comp/project1_handout/corona_dirk/build/unittest/gtest_binary/include
 
 Name: gmock_main
 Description: GoogleMock (with main() function)

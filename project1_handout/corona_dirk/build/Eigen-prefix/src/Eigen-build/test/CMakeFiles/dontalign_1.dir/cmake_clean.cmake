@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dontalign_1.dir/dontalign.cpp.o"
-  "CMakeFiles/dontalign_1.dir/dontalign.cpp.o.d"
-  "dontalign_1"
   "dontalign_1.pdb"
+  "dontalign_1"
 )
 
 # Per-language clean rules from dependency scanning.

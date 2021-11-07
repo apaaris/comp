@@ -71,22 +71,31 @@ public:
     //----------------DStart----------------
     void computeD(std::vector< std::vector<double> >& u, const double dt, int n) {
 // (write your solution here)
-	double h, hF, s, e, i, r, sF, eF,iF,rF;
+//	double h, hF, s, e, i, r, sF, eF,iF,rF;
 	 // n is the step number, the more steps, the more precise it is
 	 // in the first .at() a line is assigned to each variable, in the second .at() a value of this variable is saved for each time step
 	 // n - 1 ensures that each step is saved at the right spot, the index starts at 0, so n = 1 saves in i = 0
-	 s = u.at(0).at(n-1); // S
-	 e = u.at(1).at(n-1); // E
-	 i = u.at(2).at(n-1); // I
-	 r = u.at(3).at(n-1); // R
-	 sF = u.at(0).at(n); // Same but a step forward
-	 eF = u.at(1).at(n);
-	 iF = u.at(2).at(n);
-	 rF = u.at(3).at(n);
-	h = delta * ( s + e + r + i) + sigma * i; // D'
-	hF = delta * (sF + eF + rF + iF) + sigma * iF;
-	u.at(4).at(n) = u.at(4).at(n-1) + (h + hF) / 2.0 * dt; // D
-	
+//	 s = u.at(0).at(n-1); // S
+//	 e = u.at(1).at(n-1); // E
+//	 i = u.at(2).at(n-1); // I
+//	 r = u.at(3).at(n-1); // R
+//	 sF = u.at(0).at(n); // Same but a step forward
+//	 eF = u.at(1).at(n);
+//	 iF = u.at(2).at(n);
+//	 rF = u.at(3).at(n);
+//	h = delta * ( s + e + r + i) + sigma * i; // D'
+//	hF = delta * (sF + eF + rF + iF) + sigma * iF;
+//	u.at(4).at(n) = u.at(4).at(n-1) + (h + hF) / 2.0 * dt; // D
+	Eigen::VectorXd H(4);
+	H << delta,delta,delta+sigma,delta;
+	for(unsigned int i = 1; i <= n; i++){
+	double Hu, HuN;
+	Hu = H[0]*u[0][i]+H[1]*u[1][i]+H[2]*u[2][i]+H[3]*u[3][i];
+	HuN = H[0]*u[0][i-1]+H[1]*u[1][i-1]+H[2]*u[2][i-1]+H[3]*u[3][i-1];
+	u[4][i] = u[4][i - 1] + dt / 2 * (Hu + HuN);
+
+	}
+
     }
     //----------------DEnd----------------
 

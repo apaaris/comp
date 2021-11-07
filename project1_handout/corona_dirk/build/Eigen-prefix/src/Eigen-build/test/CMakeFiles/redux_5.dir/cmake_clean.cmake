@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/redux_5.dir/redux.cpp.o"
-  "CMakeFiles/redux_5.dir/redux.cpp.o.d"
-  "redux_5"
   "redux_5.pdb"
+  "redux_5"
 )
 
 # Per-language clean rules from dependency scanning.

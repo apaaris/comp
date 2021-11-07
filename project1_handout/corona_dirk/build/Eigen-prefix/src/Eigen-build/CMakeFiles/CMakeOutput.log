@@ -1,4 +1,4 @@
-The system is: Linux - 5.14.16-201.fc34.x86_64 - x86_64
+The system is: Linux - 4.15.0-159-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/3.20.5/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,176 +23,116 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/3.20.5/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e95f6/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e95f6.dir/build.make CMakeFiles/cmTC_e95f6.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e95f6.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e95f6.dir/testCCompiler.c.o   -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_e95f6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e95f6.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e95f6.dir/testCCompiler.c.o  -o cmTC_e95f6 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d96a6/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_d96a6.dir/build.make CMakeFiles/cmTC_d96a6.dir/build
-gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d96a6.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc   -v -o CMakeFiles/cmTC_d96a6.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Run Build Command:"/usr/bin/make" "cmTC_ef147/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ef147.dir/build.make CMakeFiles/cmTC_ef147.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef147.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ef147.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_ef147
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef147.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_ef147.dir/CMakeCCompilerABI.c.o  -o cmTC_ef147 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
 OFFLOAD_TARGET_NAMES=nvptx-none
 OFFLOAD_TARGET_DEFAULT=1
-Target: x86_64-redhat-linux
-Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-11.2.1-20210728/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-Supported LTO compression algorithms: zlib zstd
-gcc version 11.2.1 20210728 (Red Hat 11.2.1-1) (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d96a6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d96a6.dir/'
- /usr/libexec/gcc/x86_64-redhat-linux/11/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d96a6.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccYjlUUu.s
-GNU C17 (GCC) version 11.2.1 20210728 (Red Hat 11.2.1-1) (x86_64-redhat-linux)
-	compiled by GNU C version 11.2.1 20210728 (Red Hat 11.2.1-1), GMP version 6.2.0, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.18-GMP
-
-GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/11/include-fixed"
-ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/11/../../../../x86_64-redhat-linux/include"
-#include "..." search starts here:
-#include <...> search starts here:
- /usr/lib/gcc/x86_64-redhat-linux/11/include
- /usr/local/include
- /usr/include
-End of search list.
-GNU C17 (GCC) version 11.2.1 20210728 (Red Hat 11.2.1-1) (x86_64-redhat-linux)
-	compiled by GNU C version 11.2.1 20210728 (Red Hat 11.2.1-1), GMP version 6.2.0, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.18-GMP
-
-GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-Compiler executable checksum: d9978e1d525f02eccc63983c4161253e
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d96a6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d96a6.dir/'
- as -v --64 -o CMakeFiles/cmTC_d96a6.dir/CMakeCCompilerABI.c.o /tmp/ccYjlUUu.s
-GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-6.fc34
-COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d96a6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d96a6.dir/CMakeCCompilerABI.c.'
-Linking C executable cmTC_d96a6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d96a6.dir/link.txt --verbose=1
-/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_d96a6.dir/CMakeCCompilerABI.c.o -o cmTC_d96a6 
-Using built-in specs.
-COLLECT_GCC=/usr/bin/cc
-COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper
-OFFLOAD_TARGET_NAMES=nvptx-none
-OFFLOAD_TARGET_DEFAULT=1
-Target: x86_64-redhat-linux
-Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-11.2.1-20210728/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux
-Thread model: posix
-Supported LTO compression algorithms: zlib zstd
-gcc version 11.2.1 20210728 (Red Hat 11.2.1-1) (GCC) 
-COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d96a6' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d96a6.'
- /usr/libexec/gcc/x86_64-redhat-linux/11/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfc93no.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d96a6 /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. CMakeFiles/cmTC_d96a6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d96a6' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d96a6.'
-gmake[4]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-
-
-
-Parsed C implicit include dir info from above output: rv=done
-  found start of include info
-  found start of implicit include info
-    add: [/usr/lib/gcc/x86_64-redhat-linux/11/include]
-    add: [/usr/local/include]
-    add: [/usr/include]
-  end of search list found
-  collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/11/include] ==> [/usr/lib/gcc/x86_64-redhat-linux/11/include]
-  collapse include dir [/usr/local/include] ==> [/usr/local/include]
-  collapse include dir [/usr/include] ==> [/usr/include]
-  implicit include dirs: [/usr/lib/gcc/x86_64-redhat-linux/11/include;/usr/local/include;/usr/include]
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ef147' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyxtoR2.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ef147 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_ef147.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ef147' '-mtune=generic' '-march=x86-64'
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d96a6/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_d96a6.dir/build.make CMakeFiles/cmTC_d96a6.dir/build]
-  ignore line: [gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_d96a6.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_d96a6.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ef147/fast"]
+  ignore line: [make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ef147.dir/build.make CMakeFiles/cmTC_ef147.dir/build]
+  ignore line: [make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_ef147.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_ef147.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_ef147]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef147.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_ef147.dir/CMakeCCompilerABI.c.o  -o cmTC_ef147 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
   ignore line: [OFFLOAD_TARGET_DEFAULT=1]
-  ignore line: [Target: x86_64-redhat-linux]
-  ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-11.2.1-20210728/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [Supported LTO compression algorithms: zlib zstd]
-  ignore line: [gcc version 11.2.1 20210728 (Red Hat 11.2.1-1) (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d96a6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d96a6.dir/']
-  ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/11/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d96a6.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccYjlUUu.s]
-  ignore line: [GNU C17 (GCC) version 11.2.1 20210728 (Red Hat 11.2.1-1) (x86_64-redhat-linux)]
-  ignore line: [	compiled by GNU C version 11.2.1 20210728 (Red Hat 11.2.1-1)  GMP version 6.2.0  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.18-GMP]
-  ignore line: []
-  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/11/include-fixed"]
-  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/11/../../../../x86_64-redhat-linux/include"]
-  ignore line: [#include "..." search starts here:]
-  ignore line: [#include <...> search starts here:]
-  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/11/include]
-  ignore line: [ /usr/local/include]
-  ignore line: [ /usr/include]
-  ignore line: [End of search list.]
-  ignore line: [GNU C17 (GCC) version 11.2.1 20210728 (Red Hat 11.2.1-1) (x86_64-redhat-linux)]
-  ignore line: [	compiled by GNU C version 11.2.1 20210728 (Red Hat 11.2.1-1)  GMP version 6.2.0  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.18-GMP]
-  ignore line: []
-  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [Compiler executable checksum: d9978e1d525f02eccc63983c4161253e]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d96a6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d96a6.dir/']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_d96a6.dir/CMakeCCompilerABI.c.o /tmp/ccYjlUUu.s]
-  ignore line: [GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-6.fc34]
-  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d96a6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d96a6.dir/CMakeCCompilerABI.c.']
-  ignore line: [Linking C executable cmTC_d96a6]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d96a6.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_d96a6.dir/CMakeCCompilerABI.c.o -o cmTC_d96a6 ]
-  ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/usr/bin/cc]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper]
-  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
-  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
-  ignore line: [Target: x86_64-redhat-linux]
-  ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-11.2.1-20210728/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux]
-  ignore line: [Thread model: posix]
-  ignore line: [Supported LTO compression algorithms: zlib zstd]
-  ignore line: [gcc version 11.2.1 20210728 (Red Hat 11.2.1-1) (GCC) ]
-  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d96a6' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d96a6.']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/11/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfc93no.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d96a6 /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. CMakeFiles/cmTC_d96a6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o]
-    arg [/usr/libexec/gcc/x86_64-redhat-linux/11/collect2] ==> ignore
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ef147' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyxtoR2.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ef147 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_ef147.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
-    arg [/usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccfc93no.res] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccyxtoR2.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [--build-id] ==> ignore
-    arg [--no-add-needed] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
-    arg [--hash-style=gnu] ==> ignore
     arg [-m] ==> ignore
     arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_d96a6] ==> ignore
-    arg [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o]
-    arg [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o]
-    arg [/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o]
-    arg [-L/usr/lib/gcc/x86_64-redhat-linux/11] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/11]
-    arg [-L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64]
-    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
-    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
-    arg [-L/usr/lib/gcc/x86_64-redhat-linux/11/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../..]
-    arg [CMakeFiles/cmTC_d96a6.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [cmTC_ef147] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_ef147.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -204,202 +144,195 @@ Parsed C implicit link information from above output:
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [--pop-state] ==> ignore
-    arg [/usr/lib/gcc/x86_64-redhat-linux/11/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/crtend.o]
-    arg [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o]
-  collapse obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
-  collapse obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
-  collapse obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
-  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/11] ==> [/usr/lib/gcc/x86_64-redhat-linux/11]
-  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64] ==> [/usr/lib64]
-  collapse library dir [/lib/../lib64] ==> [/lib64]
-  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
-  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../..] ==> [/usr/lib]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
   implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
-  implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o;/usr/lib/gcc/x86_64-redhat-linux/11/crtend.o;/usr/lib64/crtn.o]
-  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/11;/usr/lib64;/lib64;/usr/lib]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
   implicit fwks: []
 
 
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_086d9/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_086d9.dir/build.make CMakeFiles/cmTC_086d9.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_086d9.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_086d9.dir/feature_tests.c.o   -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_086d9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_086d9.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_086d9.dir/feature_tests.c.o  -o cmTC_086d9 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_40f4e/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_40f4e.dir/build.make CMakeFiles/cmTC_40f4e.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40f4e.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_40f4e.dir/feature_tests.c.o   -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_40f4e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40f4e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_40f4e.dir/feature_tests.c.o  -o cmTC_40f4e 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5cdef/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5cdef.dir/build.make CMakeFiles/cmTC_5cdef.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5cdef.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_5cdef.dir/feature_tests.c.o   -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5cdef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cdef.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5cdef.dir/feature_tests.c.o  -o cmTC_5cdef 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_542a5/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_542a5.dir/build.make CMakeFiles/cmTC_542a5.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_542a5.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_542a5.dir/testCXXCompiler.cxx.o -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_542a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_542a5.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_542a5.dir/testCXXCompiler.cxx.o  -o cmTC_542a5 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+
+
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a4b96/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_a4b96.dir/build.make CMakeFiles/cmTC_a4b96.dir/build
-gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a4b96.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++   -v -o CMakeFiles/cmTC_a4b96.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Run Build Command:"/usr/bin/make" "cmTC_7c47e/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7c47e.dir/build.make CMakeFiles/cmTC_7c47e.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7c47e.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_7c47e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_7c47e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c47e.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_7c47e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7c47e 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
 OFFLOAD_TARGET_NAMES=nvptx-none
 OFFLOAD_TARGET_DEFAULT=1
-Target: x86_64-redhat-linux
-Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-11.2.1-20210728/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-Supported LTO compression algorithms: zlib zstd
-gcc version 11.2.1 20210728 (Red Hat 11.2.1-1) (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a4b96.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a4b96.dir/'
- /usr/libexec/gcc/x86_64-redhat-linux/11/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a4b96.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc7aOS1T.s
-GNU C++17 (GCC) version 11.2.1 20210728 (Red Hat 11.2.1-1) (x86_64-redhat-linux)
-	compiled by GNU C version 11.2.1 20210728 (Red Hat 11.2.1-1), GMP version 6.2.0, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.18-GMP
-
-GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/11/include-fixed"
-ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/11/../../../../x86_64-redhat-linux/include"
-#include "..." search starts here:
-#include <...> search starts here:
- /usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11
- /usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux
- /usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward
- /usr/lib/gcc/x86_64-redhat-linux/11/include
- /usr/local/include
- /usr/include
-End of search list.
-GNU C++17 (GCC) version 11.2.1 20210728 (Red Hat 11.2.1-1) (x86_64-redhat-linux)
-	compiled by GNU C version 11.2.1 20210728 (Red Hat 11.2.1-1), GMP version 6.2.0, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.18-GMP
-
-GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-Compiler executable checksum: ee1a2f208dd48c6a5d24bdcd31126e66
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a4b96.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a4b96.dir/'
- as -v --64 -o CMakeFiles/cmTC_a4b96.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc7aOS1T.s
-GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-6.fc34
-COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a4b96.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a4b96.dir/CMakeCXXCompilerABI.cpp.'
-Linking CXX executable cmTC_a4b96
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4b96.dir/link.txt --verbose=1
-/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_a4b96.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a4b96 
-Using built-in specs.
-COLLECT_GCC=/usr/bin/c++
-COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper
-OFFLOAD_TARGET_NAMES=nvptx-none
-OFFLOAD_TARGET_DEFAULT=1
-Target: x86_64-redhat-linux
-Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-11.2.1-20210728/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux
-Thread model: posix
-Supported LTO compression algorithms: zlib zstd
-gcc version 11.2.1 20210728 (Red Hat 11.2.1-1) (GCC) 
-COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a4b96' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a4b96.'
- /usr/libexec/gcc/x86_64-redhat-linux/11/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmU1wNz.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a4b96 /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. CMakeFiles/cmTC_a4b96.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a4b96' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a4b96.'
-gmake[4]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-
-
-
-Parsed CXX implicit include dir info from above output: rv=done
-  found start of include info
-  found start of implicit include info
-    add: [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11]
-    add: [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux]
-    add: [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward]
-    add: [/usr/lib/gcc/x86_64-redhat-linux/11/include]
-    add: [/usr/local/include]
-    add: [/usr/include]
-  end of search list found
-  collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11] ==> [/usr/include/c++/11]
-  collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux] ==> [/usr/include/c++/11/x86_64-redhat-linux]
-  collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward] ==> [/usr/include/c++/11/backward]
-  collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/11/include] ==> [/usr/lib/gcc/x86_64-redhat-linux/11/include]
-  collapse include dir [/usr/local/include] ==> [/usr/local/include]
-  collapse include dir [/usr/include] ==> [/usr/include]
-  implicit include dirs: [/usr/include/c++/11;/usr/include/c++/11/x86_64-redhat-linux;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-redhat-linux/11/include;/usr/local/include;/usr/include]
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7c47e' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuaCWDi.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_7c47e /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_7c47e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7c47e' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a4b96/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_a4b96.dir/build.make CMakeFiles/cmTC_a4b96.dir/build]
-  ignore line: [gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_a4b96.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_a4b96.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_7c47e/fast"]
+  ignore line: [make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_7c47e.dir/build.make CMakeFiles/cmTC_7c47e.dir/build]
+  ignore line: [make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_7c47e.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_7c47e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_7c47e]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c47e.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_7c47e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7c47e ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
   ignore line: [OFFLOAD_TARGET_DEFAULT=1]
-  ignore line: [Target: x86_64-redhat-linux]
-  ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-11.2.1-20210728/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [Supported LTO compression algorithms: zlib zstd]
-  ignore line: [gcc version 11.2.1 20210728 (Red Hat 11.2.1-1) (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a4b96.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a4b96.dir/']
-  ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/11/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a4b96.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc7aOS1T.s]
-  ignore line: [GNU C++17 (GCC) version 11.2.1 20210728 (Red Hat 11.2.1-1) (x86_64-redhat-linux)]
-  ignore line: [	compiled by GNU C version 11.2.1 20210728 (Red Hat 11.2.1-1)  GMP version 6.2.0  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.18-GMP]
-  ignore line: []
-  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/11/include-fixed"]
-  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/11/../../../../x86_64-redhat-linux/include"]
-  ignore line: [#include "..." search starts here:]
-  ignore line: [#include <...> search starts here:]
-  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11]
-  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/x86_64-redhat-linux]
-  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/11/../../../../include/c++/11/backward]
-  ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/11/include]
-  ignore line: [ /usr/local/include]
-  ignore line: [ /usr/include]
-  ignore line: [End of search list.]
-  ignore line: [GNU C++17 (GCC) version 11.2.1 20210728 (Red Hat 11.2.1-1) (x86_64-redhat-linux)]
-  ignore line: [	compiled by GNU C version 11.2.1 20210728 (Red Hat 11.2.1-1)  GMP version 6.2.0  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.18-GMP]
-  ignore line: []
-  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [Compiler executable checksum: ee1a2f208dd48c6a5d24bdcd31126e66]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a4b96.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a4b96.dir/']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_a4b96.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc7aOS1T.s]
-  ignore line: [GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-6.fc34]
-  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a4b96.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a4b96.dir/CMakeCXXCompilerABI.cpp.']
-  ignore line: [Linking CXX executable cmTC_a4b96]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4b96.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_a4b96.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a4b96 ]
-  ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/usr/bin/c++]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper]
-  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
-  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
-  ignore line: [Target: x86_64-redhat-linux]
-  ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-11.2.1-20210728/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux]
-  ignore line: [Thread model: posix]
-  ignore line: [Supported LTO compression algorithms: zlib zstd]
-  ignore line: [gcc version 11.2.1 20210728 (Red Hat 11.2.1-1) (GCC) ]
-  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/11/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/11/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/11/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a4b96' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a4b96.']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/11/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmU1wNz.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a4b96 /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/11 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/11/../../.. CMakeFiles/cmTC_a4b96.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/11/crtend.o /usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o]
-    arg [/usr/libexec/gcc/x86_64-redhat-linux/11/collect2] ==> ignore
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7c47e' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuaCWDi.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_7c47e /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_7c47e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
-    arg [/usr/libexec/gcc/x86_64-redhat-linux/11/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/11/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccmU1wNz.res] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccuaCWDi.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [--build-id] ==> ignore
-    arg [--no-add-needed] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
-    arg [--hash-style=gnu] ==> ignore
     arg [-m] ==> ignore
     arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_a4b96] ==> ignore
-    arg [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o]
-    arg [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o]
-    arg [/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o]
-    arg [-L/usr/lib/gcc/x86_64-redhat-linux/11] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/11]
-    arg [-L/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64]
-    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
-    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
-    arg [-L/usr/lib/gcc/x86_64-redhat-linux/11/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../..]
-    arg [CMakeFiles/cmTC_a4b96.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [cmTC_7c47e] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_7c47e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -407,511 +340,793 @@ Parsed CXX implicit link information from above output:
     arg [-lc] ==> lib [c]
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [/usr/lib/gcc/x86_64-redhat-linux/11/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/crtend.o]
-    arg [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o]
-  collapse obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
-  collapse obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
-  collapse obj [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
-  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/11] ==> [/usr/lib/gcc/x86_64-redhat-linux/11]
-  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../../../lib64] ==> [/usr/lib64]
-  collapse library dir [/lib/../lib64] ==> [/lib64]
-  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
-  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/11/../../..] ==> [/usr/lib]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
   implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
-  implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/x86_64-redhat-linux/11/crtbegin.o;/usr/lib/gcc/x86_64-redhat-linux/11/crtend.o;/usr/lib64/crtn.o]
-  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/11;/usr/lib64;/lib64;/usr/lib]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
   implicit fwks: []
 
 
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_09b2d/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_09b2d.dir/build.make CMakeFiles/cmTC_09b2d.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_09b2d.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_09b2d.dir/feature_tests.cxx.o -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_09b2d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09b2d.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_09b2d.dir/feature_tests.cxx.o  -o cmTC_09b2d 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_39333/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_39333.dir/build.make CMakeFiles/cmTC_39333.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_39333.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_39333.dir/feature_tests.cxx.o -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_39333
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39333.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_39333.dir/feature_tests.cxx.o  -o cmTC_39333 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_62147/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_62147.dir/build.make CMakeFiles/cmTC_62147.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_62147.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_62147.dir/feature_tests.cxx.o -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_62147
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62147.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_62147.dir/feature_tests.cxx.o  -o cmTC_62147 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6c118/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_6c118.dir/build.make CMakeFiles/cmTC_6c118.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6c118.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_6c118.dir/feature_tests.cxx.o -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_6c118
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c118.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_6c118.dir/feature_tests.cxx.o  -o cmTC_6c118 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
 Performing C++ SOURCE FILE Test EIGEN_COMPILER_SUPPORT_CPP11 succeeded with the following output:
-Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b10e2/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_b10e2.dir/build.make CMakeFiles/cmTC_b10e2.dir/build
-gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b10e2.dir/src.cxx.o
-/usr/bin/c++ -DEIGEN_COMPILER_SUPPORT_CPP11  -std=c++11 -o CMakeFiles/cmTC_b10e2.dir/src.cxx.o -c /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_b10e2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b10e2.dir/link.txt --verbose=1
-/usr/bin/c++ -rdynamic CMakeFiles/cmTC_b10e2.dir/src.cxx.o -o cmTC_b10e2 
-gmake[4]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-
+Run Build Command:"/usr/bin/make" "cmTC_6f3f9/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_6f3f9.dir/build.make CMakeFiles/cmTC_6f3f9.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6f3f9.dir/src.cxx.o
+/usr/bin/c++    -DEIGEN_COMPILER_SUPPORT_CPP11   -std=c++11 -o CMakeFiles/cmTC_6f3f9.dir/src.cxx.o -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6f3f9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f3f9.dir/link.txt --verbose=1
+/usr/bin/c++   -DEIGEN_COMPILER_SUPPORT_CPP11    -rdynamic CMakeFiles/cmTC_6f3f9.dir/src.cxx.o  -o cmTC_6f3f9 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_std=cpp03 succeeded with the following output:
-Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_80db4/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_80db4.dir/build.make CMakeFiles/cmTC_80db4.dir/build
-gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_80db4.dir/src.cxx.o
-/usr/bin/c++ -DCOMPILER_SUPPORT_std=cpp03  -std=c++03 -o CMakeFiles/cmTC_80db4.dir/src.cxx.o -c /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_80db4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80db4.dir/link.txt --verbose=1
-/usr/bin/c++ -rdynamic CMakeFiles/cmTC_80db4.dir/src.cxx.o -o cmTC_80db4 
-gmake[4]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-
+Run Build Command:"/usr/bin/make" "cmTC_80609/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_80609.dir/build.make CMakeFiles/cmTC_80609.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_80609.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_SUPPORT_std=cpp03   -std=c++03 -o CMakeFiles/cmTC_80609.dir/src.cxx.o -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_80609
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80609.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_SUPPORT_std=cpp03    -rdynamic CMakeFiles/cmTC_80609.dir/src.cxx.o  -o cmTC_80609 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test standard_math_library_linked_to_automatically succeeded with the following output:
-Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a89ad/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_a89ad.dir/build.make CMakeFiles/cmTC_a89ad.dir/build
-gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a89ad.dir/src.cxx.o
-/usr/bin/c++ -Dstandard_math_library_linked_to_automatically  -std=c++03  -o CMakeFiles/cmTC_a89ad.dir/src.cxx.o -c /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_a89ad
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a89ad.dir/link.txt --verbose=1
-/usr/bin/c++  -std=c++03  -rdynamic CMakeFiles/cmTC_a89ad.dir/src.cxx.o -o cmTC_a89ad 
-gmake[4]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-
+Run Build Command:"/usr/bin/make" "cmTC_d340b/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d340b.dir/build.make CMakeFiles/cmTC_d340b.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d340b.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -Dstandard_math_library_linked_to_automatically   -o CMakeFiles/cmTC_d340b.dir/src.cxx.o -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d340b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d340b.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -Dstandard_math_library_linked_to_automatically    -rdynamic CMakeFiles/cmTC_d340b.dir/src.cxx.o  -o cmTC_d340b 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
 
 Source file was:
 #include<cmath>
 int main() { std::sin(0.0); std::log(0.0f); }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_WERROR succeeded with the following output:
-Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3a5e1/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_3a5e1.dir/build.make CMakeFiles/cmTC_3a5e1.dir/build
-gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3a5e1.dir/src.cxx.o
-/usr/bin/c++ -DCOMPILER_SUPPORT_WERROR  -std=c++03    -Werror -o CMakeFiles/cmTC_3a5e1.dir/src.cxx.o -c /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_3a5e1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a5e1.dir/link.txt --verbose=1
-/usr/bin/c++  -std=c++03  -rdynamic CMakeFiles/cmTC_3a5e1.dir/src.cxx.o -o cmTC_3a5e1 
-gmake[4]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-
+Run Build Command:"/usr/bin/make" "cmTC_d844f/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d844f.dir/build.make CMakeFiles/cmTC_d844f.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d844f.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -DCOMPILER_SUPPORT_WERROR   -Werror -o CMakeFiles/cmTC_d844f.dir/src.cxx.o -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d844f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d844f.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -DCOMPILER_SUPPORT_WERROR    -rdynamic CMakeFiles/cmTC_d844f.dir/src.cxx.o  -o cmTC_d844f 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_pedantic succeeded with the following output:
-Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9d6cc/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_9d6cc.dir/build.make CMakeFiles/cmTC_9d6cc.dir/build
-gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9d6cc.dir/src.cxx.o
-/usr/bin/c++ -DCOMPILER_SUPPORT_pedantic  -std=c++03 -Werror   -pedantic -o CMakeFiles/cmTC_9d6cc.dir/src.cxx.o -c /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_9d6cc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d6cc.dir/link.txt --verbose=1
-/usr/bin/c++  -std=c++03 -Werror -rdynamic CMakeFiles/cmTC_9d6cc.dir/src.cxx.o -o cmTC_9d6cc 
-gmake[4]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-
+Run Build Command:"/usr/bin/make" "cmTC_8608a/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8608a.dir/build.make CMakeFiles/cmTC_8608a.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8608a.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -DCOMPILER_SUPPORT_pedantic -Werror   -pedantic -o CMakeFiles/cmTC_8608a.dir/src.cxx.o -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8608a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8608a.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -DCOMPILER_SUPPORT_pedantic -Werror    -rdynamic CMakeFiles/cmTC_8608a.dir/src.cxx.o  -o cmTC_8608a 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wall succeeded with the following output:
-Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1aa44/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_1aa44.dir/build.make CMakeFiles/cmTC_1aa44.dir/build
-gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1aa44.dir/src.cxx.o
-/usr/bin/c++ -DCOMPILER_SUPPORT_Wall  -std=c++03 -pedantic -Werror   -Wall -o CMakeFiles/cmTC_1aa44.dir/src.cxx.o -c /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_1aa44
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1aa44.dir/link.txt --verbose=1
-/usr/bin/c++  -std=c++03 -pedantic -Werror -rdynamic CMakeFiles/cmTC_1aa44.dir/src.cxx.o -o cmTC_1aa44 
-gmake[4]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-
+Run Build Command:"/usr/bin/make" "cmTC_9ff71/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9ff71.dir/build.make CMakeFiles/cmTC_9ff71.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9ff71.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -DCOMPILER_SUPPORT_Wall -Werror   -Wall -o CMakeFiles/cmTC_9ff71.dir/src.cxx.o -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9ff71
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ff71.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -DCOMPILER_SUPPORT_Wall -Werror    -rdynamic CMakeFiles/cmTC_9ff71.dir/src.cxx.o  -o cmTC_9ff71 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wextra succeeded with the following output:
-Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_26bb3/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_26bb3.dir/build.make CMakeFiles/cmTC_26bb3.dir/build
-gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_26bb3.dir/src.cxx.o
-/usr/bin/c++ -DCOMPILER_SUPPORT_Wextra  -std=c++03 -pedantic -Wall -Werror   -Wextra -o CMakeFiles/cmTC_26bb3.dir/src.cxx.o -c /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_26bb3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26bb3.dir/link.txt --verbose=1
-/usr/bin/c++  -std=c++03 -pedantic -Wall -Werror -rdynamic CMakeFiles/cmTC_26bb3.dir/src.cxx.o -o cmTC_26bb3 
-gmake[4]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-
+Run Build Command:"/usr/bin/make" "cmTC_73f25/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_73f25.dir/build.make CMakeFiles/cmTC_73f25.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_73f25.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -DCOMPILER_SUPPORT_Wextra -Werror   -Wextra -o CMakeFiles/cmTC_73f25.dir/src.cxx.o -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_73f25
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73f25.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -DCOMPILER_SUPPORT_Wextra -Werror    -rdynamic CMakeFiles/cmTC_73f25.dir/src.cxx.o  -o cmTC_73f25 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wundef succeeded with the following output:
-Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e2196/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_e2196.dir/build.make CMakeFiles/cmTC_e2196.dir/build
-gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e2196.dir/src.cxx.o
-/usr/bin/c++ -DCOMPILER_SUPPORT_Wundef  -std=c++03 -pedantic -Wall -Wextra -Werror   -Wundef -o CMakeFiles/cmTC_e2196.dir/src.cxx.o -c /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_e2196
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2196.dir/link.txt --verbose=1
-/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Werror -rdynamic CMakeFiles/cmTC_e2196.dir/src.cxx.o -o cmTC_e2196 
-gmake[4]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-
+Run Build Command:"/usr/bin/make" "cmTC_5432c/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5432c.dir/build.make CMakeFiles/cmTC_5432c.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5432c.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -DCOMPILER_SUPPORT_Wundef -Werror   -Wundef -o CMakeFiles/cmTC_5432c.dir/src.cxx.o -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5432c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5432c.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -DCOMPILER_SUPPORT_Wundef -Werror    -rdynamic CMakeFiles/cmTC_5432c.dir/src.cxx.o  -o cmTC_5432c 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcastalign succeeded with the following output:
-Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b1970/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_b1970.dir/build.make CMakeFiles/cmTC_b1970.dir/build
-gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b1970.dir/src.cxx.o
-/usr/bin/c++ -DCOMPILER_SUPPORT_Wcastalign  -std=c++03 -pedantic -Wall -Wextra -Wundef -Werror   -Wcast-align -o CMakeFiles/cmTC_b1970.dir/src.cxx.o -c /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_b1970
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1970.dir/link.txt --verbose=1
-/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Werror -rdynamic CMakeFiles/cmTC_b1970.dir/src.cxx.o -o cmTC_b1970 
-gmake[4]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-
+Run Build Command:"/usr/bin/make" "cmTC_22a27/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_22a27.dir/build.make CMakeFiles/cmTC_22a27.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_22a27.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -DCOMPILER_SUPPORT_Wcastalign -Werror   -Wcast-align -o CMakeFiles/cmTC_22a27.dir/src.cxx.o -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_22a27
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22a27.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -DCOMPILER_SUPPORT_Wcastalign -Werror    -rdynamic CMakeFiles/cmTC_22a27.dir/src.cxx.o  -o cmTC_22a27 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcharsubscripts succeeded with the following output:
-Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e8af6/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_e8af6.dir/build.make CMakeFiles/cmTC_e8af6.dir/build
-gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e8af6.dir/src.cxx.o
-/usr/bin/c++ -DCOMPILER_SUPPORT_Wcharsubscripts  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Werror   -Wchar-subscripts -o CMakeFiles/cmTC_e8af6.dir/src.cxx.o -c /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_e8af6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8af6.dir/link.txt --verbose=1
-/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Werror -rdynamic CMakeFiles/cmTC_e8af6.dir/src.cxx.o -o cmTC_e8af6 
-gmake[4]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-
+Run Build Command:"/usr/bin/make" "cmTC_061ab/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_061ab.dir/build.make CMakeFiles/cmTC_061ab.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_061ab.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -DCOMPILER_SUPPORT_Wcharsubscripts -Werror   -Wchar-subscripts -o CMakeFiles/cmTC_061ab.dir/src.cxx.o -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_061ab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_061ab.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -DCOMPILER_SUPPORT_Wcharsubscripts -Werror    -rdynamic CMakeFiles/cmTC_061ab.dir/src.cxx.o  -o cmTC_061ab 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnonvirtualdtor succeeded with the following output:
-Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b5fc6/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_b5fc6.dir/build.make CMakeFiles/cmTC_b5fc6.dir/build
-gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b5fc6.dir/src.cxx.o
-/usr/bin/c++ -DCOMPILER_SUPPORT_Wnonvirtualdtor  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Werror   -Wnon-virtual-dtor -o CMakeFiles/cmTC_b5fc6.dir/src.cxx.o -c /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_b5fc6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5fc6.dir/link.txt --verbose=1
-/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Werror -rdynamic CMakeFiles/cmTC_b5fc6.dir/src.cxx.o -o cmTC_b5fc6 
-gmake[4]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-
+Run Build Command:"/usr/bin/make" "cmTC_a5733/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a5733.dir/build.make CMakeFiles/cmTC_a5733.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a5733.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -DCOMPILER_SUPPORT_Wnonvirtualdtor -Werror   -Wnon-virtual-dtor -o CMakeFiles/cmTC_a5733.dir/src.cxx.o -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a5733
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5733.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -DCOMPILER_SUPPORT_Wnonvirtualdtor -Werror    -rdynamic CMakeFiles/cmTC_a5733.dir/src.cxx.o  -o cmTC_a5733 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wunusedlocaltypedefs succeeded with the following output:
-Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_78ee5/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_78ee5.dir/build.make CMakeFiles/cmTC_78ee5.dir/build
-gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_78ee5.dir/src.cxx.o
-/usr/bin/c++ -DCOMPILER_SUPPORT_Wunusedlocaltypedefs  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Werror   -Wunused-local-typedefs -o CMakeFiles/cmTC_78ee5.dir/src.cxx.o -c /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_78ee5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78ee5.dir/link.txt --verbose=1
-/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Werror -rdynamic CMakeFiles/cmTC_78ee5.dir/src.cxx.o -o cmTC_78ee5 
-gmake[4]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-
+Run Build Command:"/usr/bin/make" "cmTC_11b7f/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_11b7f.dir/build.make CMakeFiles/cmTC_11b7f.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_11b7f.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -DCOMPILER_SUPPORT_Wunusedlocaltypedefs -Werror   -Wunused-local-typedefs -o CMakeFiles/cmTC_11b7f.dir/src.cxx.o -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_11b7f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11b7f.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -DCOMPILER_SUPPORT_Wunusedlocaltypedefs -Werror    -rdynamic CMakeFiles/cmTC_11b7f.dir/src.cxx.o  -o cmTC_11b7f 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wpointerarith succeeded with the following output:
-Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e4982/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_e4982.dir/build.make CMakeFiles/cmTC_e4982.dir/build
-gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e4982.dir/src.cxx.o
-/usr/bin/c++ -DCOMPILER_SUPPORT_Wpointerarith  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Werror   -Wpointer-arith -o CMakeFiles/cmTC_e4982.dir/src.cxx.o -c /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_e4982
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4982.dir/link.txt --verbose=1
-/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Werror -rdynamic CMakeFiles/cmTC_e4982.dir/src.cxx.o -o cmTC_e4982 
-gmake[4]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-
+Run Build Command:"/usr/bin/make" "cmTC_fd642/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_fd642.dir/build.make CMakeFiles/cmTC_fd642.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fd642.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -DCOMPILER_SUPPORT_Wpointerarith -Werror   -Wpointer-arith -o CMakeFiles/cmTC_fd642.dir/src.cxx.o -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fd642
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd642.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -DCOMPILER_SUPPORT_Wpointerarith -Werror    -rdynamic CMakeFiles/cmTC_fd642.dir/src.cxx.o  -o cmTC_fd642 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wwritestrings succeeded with the following output:
-Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b3930/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_b3930.dir/build.make CMakeFiles/cmTC_b3930.dir/build
-gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b3930.dir/src.cxx.o
-/usr/bin/c++ -DCOMPILER_SUPPORT_Wwritestrings  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Werror   -Wwrite-strings -o CMakeFiles/cmTC_b3930.dir/src.cxx.o -c /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_b3930
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3930.dir/link.txt --verbose=1
-/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Werror -rdynamic CMakeFiles/cmTC_b3930.dir/src.cxx.o -o cmTC_b3930 
-gmake[4]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-
+Run Build Command:"/usr/bin/make" "cmTC_05874/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_05874.dir/build.make CMakeFiles/cmTC_05874.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_05874.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -DCOMPILER_SUPPORT_Wwritestrings -Werror   -Wwrite-strings -o CMakeFiles/cmTC_05874.dir/src.cxx.o -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_05874
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05874.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -DCOMPILER_SUPPORT_Wwritestrings -Werror    -rdynamic CMakeFiles/cmTC_05874.dir/src.cxx.o  -o cmTC_05874 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wformatsecurity succeeded with the following output:
-Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_09769/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_09769.dir/build.make CMakeFiles/cmTC_09769.dir/build
-gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_09769.dir/src.cxx.o
-/usr/bin/c++ -DCOMPILER_SUPPORT_Wformatsecurity  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Werror   -Wformat-security -o CMakeFiles/cmTC_09769.dir/src.cxx.o -c /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_09769
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09769.dir/link.txt --verbose=1
-/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Werror -rdynamic CMakeFiles/cmTC_09769.dir/src.cxx.o -o cmTC_09769 
-gmake[4]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-
+Run Build Command:"/usr/bin/make" "cmTC_3d57f/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_3d57f.dir/build.make CMakeFiles/cmTC_3d57f.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3d57f.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -DCOMPILER_SUPPORT_Wformatsecurity -Werror   -Wformat-security -o CMakeFiles/cmTC_3d57f.dir/src.cxx.o -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3d57f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d57f.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -DCOMPILER_SUPPORT_Wformatsecurity -Werror    -rdynamic CMakeFiles/cmTC_3d57f.dir/src.cxx.o  -o cmTC_3d57f 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wlogicalop succeeded with the following output:
-Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4e896/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_4e896.dir/build.make CMakeFiles/cmTC_4e896.dir/build
-gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4e896.dir/src.cxx.o
-/usr/bin/c++ -DCOMPILER_SUPPORT_Wlogicalop  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Werror   -Wlogical-op -o CMakeFiles/cmTC_4e896.dir/src.cxx.o -c /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_4e896
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e896.dir/link.txt --verbose=1
-/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Werror -rdynamic CMakeFiles/cmTC_4e896.dir/src.cxx.o -o cmTC_4e896 
-gmake[4]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-
-
-Source file was:
-int main() { return 0; }
-Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wenumconversion succeeded with the following output:
-Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_612fa/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_612fa.dir/build.make CMakeFiles/cmTC_612fa.dir/build
-gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_612fa.dir/src.cxx.o
-/usr/bin/c++ -DCOMPILER_SUPPORT_Wenumconversion  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Werror   -Wenum-conversion -o CMakeFiles/cmTC_612fa.dir/src.cxx.o -c /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_612fa
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_612fa.dir/link.txt --verbose=1
-/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Werror -rdynamic CMakeFiles/cmTC_612fa.dir/src.cxx.o -o cmTC_612fa 
-gmake[4]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-
+Run Build Command:"/usr/bin/make" "cmTC_1b802/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1b802.dir/build.make CMakeFiles/cmTC_1b802.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1b802.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -DCOMPILER_SUPPORT_Wlogicalop -Werror   -Wlogical-op -o CMakeFiles/cmTC_1b802.dir/src.cxx.o -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1b802
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b802.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -DCOMPILER_SUPPORT_Wlogicalop -Werror    -rdynamic CMakeFiles/cmTC_1b802.dir/src.cxx.o  -o cmTC_1b802 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wdoublepromotion succeeded with the following output:
-Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_761cd/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_761cd.dir/build.make CMakeFiles/cmTC_761cd.dir/build
-gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_761cd.dir/src.cxx.o
-/usr/bin/c++ -DCOMPILER_SUPPORT_Wdoublepromotion  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Werror   -Wdouble-promotion -o CMakeFiles/cmTC_761cd.dir/src.cxx.o -c /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_761cd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_761cd.dir/link.txt --verbose=1
-/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Werror -rdynamic CMakeFiles/cmTC_761cd.dir/src.cxx.o -o cmTC_761cd 
-gmake[4]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-
+Run Build Command:"/usr/bin/make" "cmTC_b6ede/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b6ede.dir/build.make CMakeFiles/cmTC_b6ede.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b6ede.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wdoublepromotion -Werror   -Wdouble-promotion -o CMakeFiles/cmTC_b6ede.dir/src.cxx.o -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b6ede
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6ede.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wdoublepromotion -Werror    -rdynamic CMakeFiles/cmTC_b6ede.dir/src.cxx.o  -o cmTC_b6ede 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnopsabi succeeded with the following output:
-Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cd2a0/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_cd2a0.dir/build.make CMakeFiles/cmTC_cd2a0.dir/build
-gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cd2a0.dir/src.cxx.o
-/usr/bin/c++ -DCOMPILER_SUPPORT_Wnopsabi  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Werror   -Wno-psabi -o CMakeFiles/cmTC_cd2a0.dir/src.cxx.o -c /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_cd2a0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd2a0.dir/link.txt --verbose=1
-/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Werror -rdynamic CMakeFiles/cmTC_cd2a0.dir/src.cxx.o -o cmTC_cd2a0 
-gmake[4]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-
+Run Build Command:"/usr/bin/make" "cmTC_1a4a9/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1a4a9.dir/build.make CMakeFiles/cmTC_1a4a9.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1a4a9.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -DCOMPILER_SUPPORT_Wnopsabi -Werror   -Wno-psabi -o CMakeFiles/cmTC_1a4a9.dir/src.cxx.o -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1a4a9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a4a9.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -DCOMPILER_SUPPORT_Wnopsabi -Werror    -rdynamic CMakeFiles/cmTC_1a4a9.dir/src.cxx.o  -o cmTC_1a4a9 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnovariadicmacros succeeded with the following output:
-Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_53d20/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_53d20.dir/build.make CMakeFiles/cmTC_53d20.dir/build
-gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_53d20.dir/src.cxx.o
-/usr/bin/c++ -DCOMPILER_SUPPORT_Wnovariadicmacros  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wno-psabi -Werror   -Wno-variadic-macros -o CMakeFiles/cmTC_53d20.dir/src.cxx.o -c /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_53d20
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53d20.dir/link.txt --verbose=1
-/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wno-psabi -Werror -rdynamic CMakeFiles/cmTC_53d20.dir/src.cxx.o -o cmTC_53d20 
-gmake[4]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-
+Run Build Command:"/usr/bin/make" "cmTC_74cb7/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_74cb7.dir/build.make CMakeFiles/cmTC_74cb7.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_74cb7.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -DCOMPILER_SUPPORT_Wnovariadicmacros -Werror   -Wno-variadic-macros -o CMakeFiles/cmTC_74cb7.dir/src.cxx.o -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_74cb7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74cb7.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -DCOMPILER_SUPPORT_Wnovariadicmacros -Werror    -rdynamic CMakeFiles/cmTC_74cb7.dir/src.cxx.o  -o cmTC_74cb7 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnolonglong succeeded with the following output:
-Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_28476/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_28476.dir/build.make CMakeFiles/cmTC_28476.dir/build
-gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_28476.dir/src.cxx.o
-/usr/bin/c++ -DCOMPILER_SUPPORT_Wnolonglong  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Werror   -Wno-long-long -o CMakeFiles/cmTC_28476.dir/src.cxx.o -c /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_28476
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28476.dir/link.txt --verbose=1
-/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Werror -rdynamic CMakeFiles/cmTC_28476.dir/src.cxx.o -o cmTC_28476 
-gmake[4]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-
+Run Build Command:"/usr/bin/make" "cmTC_5d1c0/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5d1c0.dir/build.make CMakeFiles/cmTC_5d1c0.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5d1c0.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -DCOMPILER_SUPPORT_Wnolonglong -Werror   -Wno-long-long -o CMakeFiles/cmTC_5d1c0.dir/src.cxx.o -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5d1c0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d1c0.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -DCOMPILER_SUPPORT_Wnolonglong -Werror    -rdynamic CMakeFiles/cmTC_5d1c0.dir/src.cxx.o  -o cmTC_5d1c0 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fnochecknew succeeded with the following output:
-Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_39ef4/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_39ef4.dir/build.make CMakeFiles/cmTC_39ef4.dir/build
-gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_39ef4.dir/src.cxx.o
-/usr/bin/c++ -DCOMPILER_SUPPORT_fnochecknew  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -Werror   -fno-check-new -o CMakeFiles/cmTC_39ef4.dir/src.cxx.o -c /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_39ef4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39ef4.dir/link.txt --verbose=1
-/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -Werror -rdynamic CMakeFiles/cmTC_39ef4.dir/src.cxx.o -o cmTC_39ef4 
-gmake[4]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-
+Run Build Command:"/usr/bin/make" "cmTC_f9655/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f9655.dir/build.make CMakeFiles/cmTC_f9655.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f9655.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -DCOMPILER_SUPPORT_fnochecknew -Werror   -fno-check-new -o CMakeFiles/cmTC_f9655.dir/src.cxx.o -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f9655
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9655.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -DCOMPILER_SUPPORT_fnochecknew -Werror    -rdynamic CMakeFiles/cmTC_f9655.dir/src.cxx.o  -o cmTC_f9655 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fnocommon succeeded with the following output:
-Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e8c0a/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_e8c0a.dir/build.make CMakeFiles/cmTC_e8c0a.dir/build
-gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e8c0a.dir/src.cxx.o
-/usr/bin/c++ -DCOMPILER_SUPPORT_fnocommon  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror   -fno-common -o CMakeFiles/cmTC_e8c0a.dir/src.cxx.o -c /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_e8c0a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8c0a.dir/link.txt --verbose=1
-/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror -rdynamic CMakeFiles/cmTC_e8c0a.dir/src.cxx.o -o cmTC_e8c0a 
-gmake[4]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-
+Run Build Command:"/usr/bin/make" "cmTC_073e2/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_073e2.dir/build.make CMakeFiles/cmTC_073e2.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_073e2.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -DCOMPILER_SUPPORT_fnocommon -Werror   -fno-common -o CMakeFiles/cmTC_073e2.dir/src.cxx.o -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_073e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_073e2.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -DCOMPILER_SUPPORT_fnocommon -Werror    -rdynamic CMakeFiles/cmTC_073e2.dir/src.cxx.o  -o cmTC_073e2 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fstrictaliasing succeeded with the following output:
-Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_59a09/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_59a09.dir/build.make CMakeFiles/cmTC_59a09.dir/build
-gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_59a09.dir/src.cxx.o
-/usr/bin/c++ -DCOMPILER_SUPPORT_fstrictaliasing  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -Werror   -fstrict-aliasing -o CMakeFiles/cmTC_59a09.dir/src.cxx.o -c /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_59a09
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59a09.dir/link.txt --verbose=1
-/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -Werror -rdynamic CMakeFiles/cmTC_59a09.dir/src.cxx.o -o cmTC_59a09 
-gmake[4]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-
+Run Build Command:"/usr/bin/make" "cmTC_e4965/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e4965.dir/build.make CMakeFiles/cmTC_e4965.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e4965.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -DCOMPILER_SUPPORT_fstrictaliasing -Werror   -fstrict-aliasing -o CMakeFiles/cmTC_e4965.dir/src.cxx.o -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e4965
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4965.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -DCOMPILER_SUPPORT_fstrictaliasing -Werror    -rdynamic CMakeFiles/cmTC_e4965.dir/src.cxx.o  -o cmTC_e4965 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_ansi succeeded with the following output:
-Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ce0b3/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_ce0b3.dir/build.make CMakeFiles/cmTC_ce0b3.dir/build
-gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ce0b3.dir/src.cxx.o
-/usr/bin/c++ -DCOMPILER_SUPPORT_ansi  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror   -ansi -o CMakeFiles/cmTC_ce0b3.dir/src.cxx.o -c /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_ce0b3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce0b3.dir/link.txt --verbose=1
-/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -rdynamic CMakeFiles/cmTC_ce0b3.dir/src.cxx.o -o cmTC_ce0b3 
-gmake[4]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-
+Run Build Command:"/usr/bin/make" "cmTC_f02b2/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f02b2.dir/build.make CMakeFiles/cmTC_f02b2.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f02b2.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_ansi -Werror   -ansi -o CMakeFiles/cmTC_f02b2.dir/src.cxx.o -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f02b2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f02b2.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_ansi -Werror    -rdynamic CMakeFiles/cmTC_f02b2.dir/src.cxx.o  -o cmTC_f02b2 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_OPENMP succeeded with the following output:
-Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3e5e5/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_3e5e5.dir/build.make CMakeFiles/cmTC_3e5e5.dir/build
-gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3e5e5.dir/src.cxx.o
-/usr/bin/c++ -DCOMPILER_SUPPORT_OPENMP  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi    -fopenmp -o CMakeFiles/cmTC_3e5e5.dir/src.cxx.o -c /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_3e5e5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e5e5.dir/link.txt --verbose=1
-/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi  -rdynamic CMakeFiles/cmTC_3e5e5.dir/src.cxx.o -o cmTC_3e5e5 
-gmake[4]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-
+Run Build Command:"/usr/bin/make" "cmTC_70548/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_70548.dir/build.make CMakeFiles/cmTC_70548.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_70548.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -DCOMPILER_SUPPORT_OPENMP   -fopenmp -o CMakeFiles/cmTC_70548.dir/src.cxx.o -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_70548
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70548.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -DCOMPILER_SUPPORT_OPENMP    -rdynamic CMakeFiles/cmTC_70548.dir/src.cxx.o  -o cmTC_70548 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b3842/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_b3842.dir/build.make CMakeFiles/cmTC_b3842.dir/build
-gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b3842.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_b3842.dir/CheckIncludeFile.c.o -c /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_b3842
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3842.dir/link.txt --verbose=1
-/usr/bin/cc -rdynamic CMakeFiles/cmTC_b3842.dir/CheckIncludeFile.c.o -o cmTC_b3842 
-gmake[4]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-
+Run Build Command:"/usr/bin/make" "cmTC_0e6e2/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0e6e2.dir/build.make CMakeFiles/cmTC_0e6e2.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0e6e2.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0e6e2.dir/CheckIncludeFile.c.o   -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0e6e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e6e2.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0e6e2.dir/CheckIncludeFile.c.o  -o cmTC_0e6e2 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1c66b/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_1c66b.dir/build.make CMakeFiles/cmTC_1c66b.dir/build
-gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1c66b.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_1c66b.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_1c66b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c66b.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_1c66b.dir/CheckFunctionExists.c.o -o cmTC_1c66b  -lpthread 
-gmake[4]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-
+Run Build Command:"/usr/bin/make" "cmTC_4062b/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4062b.dir/build.make CMakeFiles/cmTC_4062b.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4062b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4062b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4062b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4062b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_4062b.dir/CheckFunctionExists.c.o  -o cmTC_4062b -lpthread 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
 
 
 Performing C++ SOURCE FILE Test COMPILER_SUPPORT_FASTMATH succeeded with the following output:
-Change Dir: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
+Change Dir: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_77060/fast && gmake[3]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_77060.dir/build.make CMakeFiles/cmTC_77060.dir/build
-gmake[4]: Entering directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_77060.dir/src.cxx.o
-/usr/bin/c++ -DCOMPILER_SUPPORT_FASTMATH  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi    -ffast-math -o CMakeFiles/cmTC_77060.dir/src.cxx.o -c /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_77060
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77060.dir/link.txt --verbose=1
-/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi  -rdynamic CMakeFiles/cmTC_77060.dir/src.cxx.o -o cmTC_77060 
-gmake[4]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-gmake[3]: Leaving directory '/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
-
+Run Build Command:"/usr/bin/make" "cmTC_43927/fast"
+make[3]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_43927.dir/build.make CMakeFiles/cmTC_43927.dir/build
+make[4]: Entering directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_43927.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -DCOMPILER_SUPPORT_FASTMATH   -ffast-math -o CMakeFiles/cmTC_43927.dir/src.cxx.o -c /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_43927
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43927.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -DCOMPILER_SUPPORT_FASTMATH    -rdynamic CMakeFiles/cmTC_43927.dir/src.cxx.o  -o cmTC_43927 
+make[4]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }

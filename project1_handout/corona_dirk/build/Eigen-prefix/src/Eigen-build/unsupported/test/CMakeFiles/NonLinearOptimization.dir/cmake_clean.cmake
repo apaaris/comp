@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/NonLinearOptimization.dir/NonLinearOptimization.cpp.o"
-  "CMakeFiles/NonLinearOptimization.dir/NonLinearOptimization.cpp.o.d"
-  "NonLinearOptimization"
   "NonLinearOptimization.pdb"
+  "NonLinearOptimization"
 )
 
 # Per-language clean rules from dependency scanning.

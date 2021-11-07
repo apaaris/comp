@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_MatrixBase_computeInverseWithCheck.dir/compile_MatrixBase_computeInverseWithCheck.cpp.o"
-  "CMakeFiles/compile_MatrixBase_computeInverseWithCheck.dir/compile_MatrixBase_computeInverseWithCheck.cpp.o.d"
-  "compile_MatrixBase_computeInverseWithCheck"
   "compile_MatrixBase_computeInverseWithCheck.pdb"
+  "compile_MatrixBase_computeInverseWithCheck"
 )
 
 # Per-language clean rules from dependency scanning.

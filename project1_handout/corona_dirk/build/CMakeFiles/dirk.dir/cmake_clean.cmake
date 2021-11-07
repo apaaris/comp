@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dirk.dir/dirk.cpp.o"
-  "CMakeFiles/dirk.dir/dirk.cpp.o.d"
-  "dirk"
   "dirk.pdb"
+  "dirk"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/inplace_decomposition_3.dir/inplace_decomposition.cpp.o"
-  "CMakeFiles/inplace_decomposition_3.dir/inplace_decomposition.cpp.o.d"
-  "inplace_decomposition_3"
   "inplace_decomposition_3.pdb"
+  "inplace_decomposition_3"
 )
 
 # Per-language clean rules from dependency scanning.

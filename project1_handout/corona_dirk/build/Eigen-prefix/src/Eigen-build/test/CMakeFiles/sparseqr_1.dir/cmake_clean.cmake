@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sparseqr_1.dir/sparseqr.cpp.o"
-  "CMakeFiles/sparseqr_1.dir/sparseqr.cpp.o.d"
-  "sparseqr_1"
   "sparseqr_1.pdb"
+  "sparseqr_1"
 )
 
 # Per-language clean rules from dependency scanning.

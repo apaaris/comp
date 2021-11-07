@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Tutorial_BlockOperations_vector.dir/Tutorial_BlockOperations_vector.cpp.o"
-  "CMakeFiles/Tutorial_BlockOperations_vector.dir/Tutorial_BlockOperations_vector.cpp.o.d"
-  "Tutorial_BlockOperations_vector"
   "Tutorial_BlockOperations_vector.pdb"
+  "Tutorial_BlockOperations_vector"
 )
 
 # Per-language clean rules from dependency scanning.

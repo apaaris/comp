@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/class_FixedVectorBlock.dir/class_FixedVectorBlock.cpp.o"
-  "CMakeFiles/class_FixedVectorBlock.dir/class_FixedVectorBlock.cpp.o.d"
-  "class_FixedVectorBlock"
   "class_FixedVectorBlock.pdb"
+  "class_FixedVectorBlock"
 )
 
 # Per-language clean rules from dependency scanning.

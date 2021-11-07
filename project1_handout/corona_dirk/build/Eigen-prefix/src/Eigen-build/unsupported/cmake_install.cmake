@@ -1,8 +1,8 @@
-# Install script for directory: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/unsupported
+# Install script for directory: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen/unsupported
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen_install")
+  set(CMAKE_INSTALL_PREFIX "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen_install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -29,7 +29,7 @@ endif()
 
 # Install shared libraries without execute permission?
 if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "0")
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
 # Is this installation the result of a crosscompile?
@@ -37,14 +37,9 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
-endif()
-
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/unsupported/Eigen/cmake_install.cmake")
+  include("/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/unsupported/Eigen/cmake_install.cmake")
 
 endif()
 

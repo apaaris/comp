@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/qr_fullpivoting_1.dir/qr_fullpivoting.cpp.o"
-  "CMakeFiles/qr_fullpivoting_1.dir/qr_fullpivoting.cpp.o.d"
-  "qr_fullpivoting_1"
   "qr_fullpivoting_1.pdb"
+  "qr_fullpivoting_1"
 )
 
 # Per-language clean rules from dependency scanning.

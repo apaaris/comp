@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mixingtypes_1.dir/mixingtypes.cpp.o"
-  "CMakeFiles/mixingtypes_1.dir/mixingtypes.cpp.o.d"
-  "mixingtypes_1"
   "mixingtypes_1.pdb"
+  "mixingtypes_1"
 )
 
 # Per-language clean rules from dependency scanning.

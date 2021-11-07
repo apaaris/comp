@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/real_qz_1.dir/real_qz.cpp.o"
-  "CMakeFiles/real_qz_1.dir/real_qz.cpp.o.d"
-  "real_qz_1"
   "real_qz_1.pdb"
+  "real_qz_1"
 )
 
 # Per-language clean rules from dependency scanning.

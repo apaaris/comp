@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver.dir/compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver.cpp.o"
-  "CMakeFiles/compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver.dir/compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver.cpp.o.d"
-  "compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver"
   "compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver.pdb"
+  "compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver"
 )
 
 # Per-language clean rules from dependency scanning.

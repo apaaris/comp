@@ -1,8 +1,8 @@
-# Install script for directory: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen
+# Install script for directory: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen_install")
+  set(CMAKE_INSTALL_PREFIX "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen_install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -29,7 +29,7 @@ endif()
 
 # Install shared libraries without execute permission?
 if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "0")
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
 # Is this installation the result of a crosscompile?
@@ -37,24 +37,19 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
-endif()
-
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/eigen3" TYPE FILE FILES "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/signature_of_eigen3_matrix_library")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/eigen3" TYPE FILE FILES "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/signature_of_eigen3_matrix_library")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkgconfig" TYPE FILE FILES "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/eigen3.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pkgconfig" TYPE FILE FILES "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/eigen3.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/eigen3/cmake/Eigen3Targets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/eigen3/cmake/Eigen3Targets.cmake"
-         "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/Export/share/eigen3/cmake/Eigen3Targets.cmake")
+         "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/Export/share/eigen3/cmake/Eigen3Targets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/eigen3/cmake/Eigen3Targets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -63,21 +58,21 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/eigen3/cmake" TYPE FILE FILES "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/Export/share/eigen3/cmake/Eigen3Targets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/eigen3/cmake" TYPE FILE FILES "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/CMakeFiles/Export/share/eigen3/cmake/Eigen3Targets.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/eigen3/cmake" TYPE FILE FILES
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/cmake/UseEigen3.cmake"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/Eigen3Config.cmake"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/Eigen3ConfigVersion.cmake"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/cmake/UseEigen3.cmake"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/Eigen3Config.cmake"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/Eigen3ConfigVersion.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/Eigen/cmake_install.cmake")
-  include("/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/unsupported/cmake_install.cmake")
+  include("/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/Eigen/cmake_install.cmake")
+  include("/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/unsupported/cmake_install.cmake")
 
 endif()
 
@@ -89,5 +84,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -4,7 +4,7 @@ if("${CMAKE_MAJOR_VERSION}.${CMAKE_MINOR_VERSION}" LESS 2.5)
    message(FATAL_ERROR "CMake >= 2.6.0 required")
 endif()
 cmake_policy(PUSH)
-cmake_policy(VERSION 2.6...3.18)
+cmake_policy(VERSION 2.6)
 #----------------------------------------------------------------
 # Generated CMake target import file.
 #----------------------------------------------------------------
@@ -49,7 +49,7 @@ unset(_expectedTargets)
 add_library(Eigen3::Eigen INTERFACE IMPORTED)
 
 set_target_properties(Eigen3::Eigen PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen"
 )
 
 # This file does not depend on other imported targets which have

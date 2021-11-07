@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/eigensolver_generic_1.dir/eigensolver_generic.cpp.o"
-  "CMakeFiles/eigensolver_generic_1.dir/eigensolver_generic.cpp.o.d"
-  "eigensolver_generic_1"
   "eigensolver_generic_1.pdb"
+  "eigensolver_generic_1"
 )
 
 # Per-language clean rules from dependency scanning.

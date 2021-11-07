@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/schur_real_3.dir/schur_real.cpp.o"
-  "CMakeFiles/schur_real_3.dir/schur_real.cpp.o.d"
-  "schur_real_3"
   "schur_real_3.pdb"
+  "schur_real_3"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_TopicAliasing_mult5.dir/compile_TopicAliasing_mult5.cpp.o"
-  "CMakeFiles/compile_TopicAliasing_mult5.dir/compile_TopicAliasing_mult5.cpp.o.d"
-  "compile_TopicAliasing_mult5"
   "compile_TopicAliasing_mult5.pdb"
+  "compile_TopicAliasing_mult5"
 )
 
 # Per-language clean rules from dependency scanning.

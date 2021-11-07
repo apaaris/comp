@@ -1,1 +1,1 @@
-cmd='/usr/bin/cmake;-DCMAKE_CXX_COMPILER=/usr/bin/c++;-DCMAKE_C_COMPILER=/usr/bin/cc;-DCMAKE_INSTALL_PREFIX=/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen_install;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'
+cmd='/usr/bin/cmake;-DCMAKE_CXX_COMPILER=/usr/bin/c++;-DCMAKE_C_COMPILER=/usr/bin/cc;-DCMAKE_INSTALL_PREFIX=/home/cmea/comp/project1_handout/corona_dirk/build/Eigen_install;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

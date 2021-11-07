@@ -1,7 +1,7 @@
 # Make file names absolute:
 #
-get_filename_component(filename "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/eigen-3.3.7.zip" ABSOLUTE)
-get_filename_component(directory "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen" ABSOLUTE)
+get_filename_component(filename "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/eigen-3.3.7.zip" ABSOLUTE)
+get_filename_component(directory "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

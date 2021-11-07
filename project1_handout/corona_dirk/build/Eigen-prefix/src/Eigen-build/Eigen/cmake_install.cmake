@@ -1,8 +1,8 @@
-# Install script for directory: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/Eigen
+# Install script for directory: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen/Eigen
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen_install")
+  set(CMAKE_INSTALL_PREFIX "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen_install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -29,7 +29,7 @@ endif()
 
 # Install shared libraries without execute permission?
 if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "0")
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
 # Is this installation the result of a crosscompile?
@@ -37,46 +37,41 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
-endif()
-
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/eigen3/Eigen" TYPE FILE FILES
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/Eigen/Cholesky"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/Eigen/CholmodSupport"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/Eigen/Core"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/Eigen/Dense"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/Eigen/Eigen"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/Eigen/Eigenvalues"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/Eigen/Geometry"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/Eigen/Householder"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/Eigen/IterativeLinearSolvers"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/Eigen/Jacobi"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/Eigen/LU"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/Eigen/MetisSupport"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/Eigen/OrderingMethods"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/Eigen/PaStiXSupport"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/Eigen/PardisoSupport"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/Eigen/QR"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/Eigen/QtAlignedMalloc"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/Eigen/SPQRSupport"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/Eigen/SVD"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/Eigen/Sparse"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/Eigen/SparseCholesky"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/Eigen/SparseCore"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/Eigen/SparseLU"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/Eigen/SparseQR"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/Eigen/StdDeque"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/Eigen/StdList"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/Eigen/StdVector"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/Eigen/SuperLUSupport"
-    "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/Eigen/UmfPackSupport"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/Eigen/Cholesky"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/Eigen/CholmodSupport"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/Eigen/Core"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/Eigen/Dense"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/Eigen/Eigen"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/Eigen/Eigenvalues"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/Eigen/Geometry"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/Eigen/Householder"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/Eigen/IterativeLinearSolvers"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/Eigen/Jacobi"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/Eigen/LU"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/Eigen/MetisSupport"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/Eigen/OrderingMethods"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/Eigen/PaStiXSupport"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/Eigen/PardisoSupport"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/Eigen/QR"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/Eigen/QtAlignedMalloc"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/Eigen/SPQRSupport"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/Eigen/SVD"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/Eigen/Sparse"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/Eigen/SparseCholesky"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/Eigen/SparseCore"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/Eigen/SparseLU"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/Eigen/SparseQR"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/Eigen/StdDeque"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/Eigen/StdList"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/Eigen/StdVector"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/Eigen/SuperLUSupport"
+    "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/Eigen/UmfPackSupport"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/eigen3/Eigen" TYPE DIRECTORY FILES "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/Eigen/src" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/eigen3/Eigen" TYPE DIRECTORY FILES "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen/Eigen/src" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 

@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/stable_norm_2.dir/stable_norm.cpp.o"
-  "CMakeFiles/stable_norm_2.dir/stable_norm.cpp.o.d"
-  "stable_norm_2"
   "stable_norm_2.pdb"
+  "stable_norm_2"
 )
 
 # Per-language clean rules from dependency scanning.

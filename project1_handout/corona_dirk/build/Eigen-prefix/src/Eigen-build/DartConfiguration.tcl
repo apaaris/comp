@@ -4,29 +4,39 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen
-BuildDirectory: /home/apaaris/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build
+SourceDirectory: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen
+BuildDirectory: /home/cmea/comp/project1_handout/corona_dirk/build/Eigen-prefix/src/Eigen-build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: fedora
+Site: CMEA-Lubuntu
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: linux-5.14.16-201.fc34.x86_64-g++-11.2.1-sse2-64bit
+BuildName: linux-4.15.0-159-generic-_-7.5.0-sse2-64bit
 
 # Subprojects
 LabelsForSubprojects: 
 
 # Submission information
-SubmitURL: http://manao.inria.fr/CDash/submit.php?project=Eigen+3.3
+IsCDash: TRUE
+CDashVersion: 
+QueryCDashVersion: 
+DropSite: manao.inria.fr
+DropLocation: /CDash/submit.php?project=Eigen+3.3
+DropSiteUser: 
+DropSitePassword: 
+DropSiteMode: 
+DropMethod: http
+TriggerSite: 
+ScpCommand: /usr/bin/scp
 
 # Dashboard start time
 NightlyStartTime: 00:00:00 UTC
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen"
+ConfigureCommand: "/usr/bin/cmake" "/home/cmea/comp/project1_handout/corona_dirk/build/Eigen"
 MakeCommand: /usr/bin/cmake --build . --target buildtests --config "${CTEST_CONFIGURATION_TYPE}" -- -i 
 DefaultCTestConfigurationType: Release
 
@@ -35,22 +45,22 @@ UpdateVersionOnly:
 
 # CVS options
 # Default is "-d -P -A"
-CVSCommand: 
-CVSUpdateOptions: 
+CVSCommand: CVSCOMMAND-NOTFOUND
+CVSUpdateOptions: -d -A -P
 
 # Subversion options
-SVNCommand: 
+SVNCommand: SVNCOMMAND-NOTFOUND
 SVNOptions: 
 SVNUpdateOptions: 
 
 # Git options
-GITCommand: 
+GITCommand: /usr/bin/git
 GITInitSubmodules: 
 GITUpdateOptions: 
 GITUpdateCustom: 
 
 # Perforce options
-P4Command: 
+P4Command: P4COMMAND-NOTFOUND
 P4Client: 
 P4Options: 
 P4UpdateOptions: 
@@ -63,16 +73,12 @@ UpdateType:
 
 # Compiler info
 Compiler: /usr/bin/c++
-CompilerVersion: 11.2.1
+CompilerVersion: 7.5.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
 ValgrindCommand: 
 ValgrindCommandOptions: 
-DrMemoryCommand: 
-DrMemoryCommandOptions: 
-CudaSanitizerCommand: 
-CudaSanitizerCommandOptions: 
 MemoryCheckType: 
 MemoryCheckSanitizerOptions: 
 MemoryCheckCommand: MEMORYCHECK_COMMAND-NOTFOUND
@@ -82,6 +88,10 @@ MemoryCheckSuppressionFile:
 # Coverage
 CoverageCommand: /usr/bin/gcov
 CoverageExtraFlags: -l
+
+# Cluster commands
+SlurmBatchCommand: SLURM_SBATCH_COMMAND-NOTFOUND
+SlurmRunCommand: SLURM_SRUN_COMMAND-NOTFOUND
 
 # Testing options
 # TimeOut is the amount of time in seconds to wait for processes

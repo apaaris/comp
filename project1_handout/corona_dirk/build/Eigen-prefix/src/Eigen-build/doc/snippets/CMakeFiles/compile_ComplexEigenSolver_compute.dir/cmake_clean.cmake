@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_ComplexEigenSolver_compute.dir/compile_ComplexEigenSolver_compute.cpp.o"
-  "CMakeFiles/compile_ComplexEigenSolver_compute.dir/compile_ComplexEigenSolver_compute.cpp.o.d"
-  "compile_ComplexEigenSolver_compute"
   "compile_ComplexEigenSolver_compute.pdb"
+  "compile_ComplexEigenSolver_compute"
 )
 
 # Per-language clean rules from dependency scanning.

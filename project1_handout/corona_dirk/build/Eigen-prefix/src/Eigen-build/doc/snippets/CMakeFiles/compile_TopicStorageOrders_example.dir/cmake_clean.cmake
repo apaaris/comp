@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_TopicStorageOrders_example.dir/compile_TopicStorageOrders_example.cpp.o"
-  "CMakeFiles/compile_TopicStorageOrders_example.dir/compile_TopicStorageOrders_example.cpp.o.d"
-  "compile_TopicStorageOrders_example"
   "compile_TopicStorageOrders_example.pdb"
+  "compile_TopicStorageOrders_example"
 )
 
 # Per-language clean rules from dependency scanning.

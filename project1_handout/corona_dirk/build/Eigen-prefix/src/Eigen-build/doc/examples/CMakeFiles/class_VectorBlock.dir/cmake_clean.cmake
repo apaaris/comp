@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/class_VectorBlock.dir/class_VectorBlock.cpp.o"
-  "CMakeFiles/class_VectorBlock.dir/class_VectorBlock.cpp.o.d"
-  "class_VectorBlock"
   "class_VectorBlock.pdb"
+  "class_VectorBlock"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/forward_euler.dir/forward_euler.cpp.o"
-  "CMakeFiles/forward_euler.dir/forward_euler.cpp.o.d"
-  "forward_euler"
   "forward_euler.pdb"
+  "forward_euler"
 )
 
 # Per-language clean rules from dependency scanning.

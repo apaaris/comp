@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/geo_eulerangles_1.dir/geo_eulerangles.cpp.o"
-  "CMakeFiles/geo_eulerangles_1.dir/geo_eulerangles.cpp.o.d"
-  "geo_eulerangles_1"
   "geo_eulerangles_1.pdb"
+  "geo_eulerangles_1"
 )
 
 # Per-language clean rules from dependency scanning.

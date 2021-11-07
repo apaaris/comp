@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/linearstructure_11.dir/linearstructure.cpp.o"
-  "CMakeFiles/linearstructure_11.dir/linearstructure.cpp.o.d"
-  "linearstructure_11"
   "linearstructure_11.pdb"
+  "linearstructure_11"
 )
 
 # Per-language clean rules from dependency scanning.

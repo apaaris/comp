@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/product_syrk_4.dir/product_syrk.cpp.o"
-  "CMakeFiles/product_syrk_4.dir/product_syrk.cpp.o.d"
-  "product_syrk_4"
   "product_syrk_4.pdb"
+  "product_syrk_4"
 )
 
 # Per-language clean rules from dependency scanning.

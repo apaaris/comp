@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/basicstuff_6.dir/basicstuff.cpp.o"
-  "CMakeFiles/basicstuff_6.dir/basicstuff.cpp.o.d"
-  "basicstuff_6"
   "basicstuff_6.pdb"
+  "basicstuff_6"
 )
 
 # Per-language clean rules from dependency scanning.

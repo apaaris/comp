@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp.o"
-  "CMakeFiles/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.dir/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp.o.d"
-  "Tutorial_ReductionsVisitorsBroadcasting_maxnorm"
   "Tutorial_ReductionsVisitorsBroadcasting_maxnorm.pdb"
+  "Tutorial_ReductionsVisitorsBroadcasting_maxnorm"
 )
 
 # Per-language clean rules from dependency scanning.

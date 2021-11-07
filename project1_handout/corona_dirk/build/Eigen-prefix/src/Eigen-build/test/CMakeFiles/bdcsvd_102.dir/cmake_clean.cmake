@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/bdcsvd_102.dir/bdcsvd.cpp.o"
-  "CMakeFiles/bdcsvd_102.dir/bdcsvd.cpp.o.d"
-  "bdcsvd_102"
   "bdcsvd_102.pdb"
+  "bdcsvd_102"
 )
 
 # Per-language clean rules from dependency scanning.

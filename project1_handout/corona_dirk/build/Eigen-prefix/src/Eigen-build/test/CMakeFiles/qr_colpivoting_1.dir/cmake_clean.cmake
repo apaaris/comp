@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/qr_colpivoting_1.dir/qr_colpivoting.cpp.o"
-  "CMakeFiles/qr_colpivoting_1.dir/qr_colpivoting.cpp.o.d"
-  "qr_colpivoting_1"
   "qr_colpivoting_1.pdb"
+  "qr_colpivoting_1"
 )
 
 # Per-language clean rules from dependency scanning.

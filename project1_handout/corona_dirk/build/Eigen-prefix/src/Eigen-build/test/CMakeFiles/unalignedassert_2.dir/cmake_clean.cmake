@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/unalignedassert_2.dir/unalignedassert.cpp.o"
-  "CMakeFiles/unalignedassert_2.dir/unalignedassert.cpp.o.d"
-  "unalignedassert_2"
   "unalignedassert_2.pdb"
+  "unalignedassert_2"
 )
 
 # Per-language clean rules from dependency scanning.

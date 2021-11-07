@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/inverse_7.dir/inverse.cpp.o"
-  "CMakeFiles/inverse_7.dir/inverse.cpp.o.d"
-  "inverse_7"
   "inverse_7.pdb"
+  "inverse_7"
 )
 
 # Per-language clean rules from dependency scanning.

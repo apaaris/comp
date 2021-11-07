@@ -1,0 +1,5 @@
+/home/apaaris/comp/project1_handout/heun_timestep/build/CMakeFiles/rebuild_cache.dir
+/home/apaaris/comp/project1_handout/heun_timestep/build/CMakeFiles/heunconv.dir
+/home/apaaris/comp/project1_handout/heun_timestep/build/CMakeFiles/edit_cache.dir
+/home/apaaris/comp/project1_handout/heun_timestep/build/CMakeFiles/heun.dir
+/home/apaaris/comp/project1_handout/heun_timestep/build/CMakeFiles/Eigen.dir

@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/apaaris/comp/project1_handout/corona_dirk/build/Eigen/unsupported/test/cxx11_tensor_uint128.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildUnsupported"
+		],
+		"name" : "cxx11_tensor_uint128_4"
+	}
+}

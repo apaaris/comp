@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../midpoint/midpoint.hpp
+
+/home/apaaris/eth/comp/serie0/midpoint/test_single/test_single.cpp
+midpoint.hpp
+/home/apaaris/eth/comp/serie0/midpoint/test_single/midpoint.hpp
+iostream
+-
+math.h
+-
+limits
+-
+iomanip
+-
+

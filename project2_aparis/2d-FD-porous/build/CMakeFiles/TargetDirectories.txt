@@ -1,0 +1,4 @@
+/home/apaaris/comp/project2_handout/2d-FD-porous/build/CMakeFiles/rebuild_cache.dir
+/home/apaaris/comp/project2_handout/2d-FD-porous/build/CMakeFiles/edit_cache.dir
+/home/apaaris/comp/project2_handout/2d-FD-porous/build/CMakeFiles/finite_difference.dir
+/home/apaaris/comp/project2_handout/2d-FD-porous/build/CMakeFiles/Eigen.dir

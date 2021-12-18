@@ -1,0 +1,9 @@
+libdir=/home/apaaris/comp/project2_handout/2d-linFEM/build/unittest/gtest_binary/lib
+includedir=/home/apaaris/comp/project2_handout/2d-linFEM/build/unittest/gtest_binary/include
+
+Name: gmock
+Description: GoogleMock (without main() function)
+Version: 1.9.0
+URL: https://github.com/google/googletest
+Libs: -L${libdir} -lgmock -pthread
+Cflags: -I${includedir} -DGTEST_HAS_PTHREAD=1 -pthread

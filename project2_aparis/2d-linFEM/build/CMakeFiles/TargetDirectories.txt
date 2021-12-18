@@ -1,0 +1,9 @@
+/home/apaaris/comp/project2_handout/2d-linFEM/build/CMakeFiles/rebuild_cache.dir
+/home/apaaris/comp/project2_handout/2d-linFEM/build/CMakeFiles/edit_cache.dir
+/home/apaaris/comp/project2_handout/2d-linFEM/build/CMakeFiles/fem2d.dir
+/home/apaaris/comp/project2_handout/2d-linFEM/build/CMakeFiles/IGL.dir
+/home/apaaris/comp/project2_handout/2d-linFEM/build/CMakeFiles/Eigen.dir
+/home/apaaris/comp/project2_handout/2d-linFEM/build/unittest/CMakeFiles/rebuild_cache.dir
+/home/apaaris/comp/project2_handout/2d-linFEM/build/unittest/CMakeFiles/edit_cache.dir
+/home/apaaris/comp/project2_handout/2d-linFEM/build/unittest/CMakeFiles/unittest.dir
+/home/apaaris/comp/project2_handout/2d-linFEM/build/unittest/CMakeFiles/GTestDownload.dir

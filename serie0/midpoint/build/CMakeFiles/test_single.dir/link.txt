@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/test_single.dir/test_single/test_single.cpp.o  -o test_single  libmidpoint.a 

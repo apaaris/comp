@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcrank_nicolson.a  CMakeFiles/crank_nicolson.dir/crank_nicolson.cpp.o
+/usr/bin/ranlib libcrank_nicolson.a

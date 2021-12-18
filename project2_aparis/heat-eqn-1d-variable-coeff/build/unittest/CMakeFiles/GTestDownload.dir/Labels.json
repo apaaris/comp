@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/apaaris/comp/project2_handout/heat-eqn-1d-variable-coeff/build/unittest/CMakeFiles/GTestDownload"
+		},
+		{
+			"file" : "/home/apaaris/comp/project2_handout/heat-eqn-1d-variable-coeff/build/unittest/CMakeFiles/GTestDownload.rule"
+		},
+		{
+			"file" : "/home/apaaris/comp/project2_handout/heat-eqn-1d-variable-coeff/build/unittest/CMakeFiles/GTestDownload-complete.rule"
+		},
+		{
+			"file" : "/home/apaaris/comp/project2_handout/heat-eqn-1d-variable-coeff/build/unittest/GTestDownload-prefix/src/GTestDownload-stamp/GTestDownload-install.rule"
+		},
+		{
+			"file" : "/home/apaaris/comp/project2_handout/heat-eqn-1d-variable-coeff/build/unittest/GTestDownload-prefix/src/GTestDownload-stamp/GTestDownload-mkdir.rule"
+		},
+		{
+			"file" : "/home/apaaris/comp/project2_handout/heat-eqn-1d-variable-coeff/build/unittest/GTestDownload-prefix/src/GTestDownload-stamp/GTestDownload-download.rule"
+		},
+		{
+			"file" : "/home/apaaris/comp/project2_handout/heat-eqn-1d-variable-coeff/build/unittest/GTestDownload-prefix/src/GTestDownload-stamp/GTestDownload-update.rule"
+		},
+		{
+			"file" : "/home/apaaris/comp/project2_handout/heat-eqn-1d-variable-coeff/build/unittest/GTestDownload-prefix/src/GTestDownload-stamp/GTestDownload-patch.rule"
+		},
+		{
+			"file" : "/home/apaaris/comp/project2_handout/heat-eqn-1d-variable-coeff/build/unittest/GTestDownload-prefix/src/GTestDownload-stamp/GTestDownload-configure.rule"
+		},
+		{
+			"file" : "/home/apaaris/comp/project2_handout/heat-eqn-1d-variable-coeff/build/unittest/GTestDownload-prefix/src/GTestDownload-stamp/GTestDownload-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"GTestDownload"
+		],
+		"name" : "GTestDownload"
+	}
+}

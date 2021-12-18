@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/apaaris/eth/comp/serie3/2d-FD_pure/build/Eigen/unsupported/test/polynomialutils.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildUnsupported"
+		],
+		"name" : "polynomialutils_6"
+	}
+}

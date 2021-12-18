@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/apaaris/eth/comp/serie3/2d-FD_pure/build/Eigen/test/geo_homogeneous.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "geo_homogeneous_2"
+	}
+}

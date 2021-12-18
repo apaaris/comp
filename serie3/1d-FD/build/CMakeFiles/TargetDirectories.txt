@@ -1,0 +1,4 @@
+/home/apaaris/eth/comp/serie3/1d-FD/build/CMakeFiles/rebuild_cache.dir
+/home/apaaris/eth/comp/serie3/1d-FD/build/CMakeFiles/edit_cache.dir
+/home/apaaris/eth/comp/serie3/1d-FD/build/CMakeFiles/finite_difference.dir
+/home/apaaris/eth/comp/serie3/1d-FD/build/CMakeFiles/Eigen.dir

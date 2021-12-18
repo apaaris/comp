@@ -1,0 +1,4 @@
+/home/apaaris/eth/comp/serie1/trapezoidal/build/CMakeFiles/rebuild_cache.dir
+/home/apaaris/eth/comp/serie1/trapezoidal/build/CMakeFiles/edit_cache.dir
+/home/apaaris/eth/comp/serie1/trapezoidal/build/CMakeFiles/trapezoidal.dir
+/home/apaaris/eth/comp/serie1/trapezoidal/build/CMakeFiles/Eigen.dir

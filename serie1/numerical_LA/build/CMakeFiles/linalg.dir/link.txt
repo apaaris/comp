@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/linalg.dir/syssolve.cpp.o  -o linalg 

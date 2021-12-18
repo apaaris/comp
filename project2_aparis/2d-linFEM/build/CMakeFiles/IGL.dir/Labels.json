@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/apaaris/comp/project2_handout/2d-linFEM/build/CMakeFiles/IGL"
+		},
+		{
+			"file" : "/home/apaaris/comp/project2_handout/2d-linFEM/build/CMakeFiles/IGL.rule"
+		},
+		{
+			"file" : "/home/apaaris/comp/project2_handout/2d-linFEM/build/CMakeFiles/IGL-complete.rule"
+		},
+		{
+			"file" : "/home/apaaris/comp/project2_handout/2d-linFEM/build/IGL-prefix/src/IGL-stamp/IGL-install.rule"
+		},
+		{
+			"file" : "/home/apaaris/comp/project2_handout/2d-linFEM/build/IGL-prefix/src/IGL-stamp/IGL-mkdir.rule"
+		},
+		{
+			"file" : "/home/apaaris/comp/project2_handout/2d-linFEM/build/IGL-prefix/src/IGL-stamp/IGL-download.rule"
+		},
+		{
+			"file" : "/home/apaaris/comp/project2_handout/2d-linFEM/build/IGL-prefix/src/IGL-stamp/IGL-update.rule"
+		},
+		{
+			"file" : "/home/apaaris/comp/project2_handout/2d-linFEM/build/IGL-prefix/src/IGL-stamp/IGL-patch.rule"
+		},
+		{
+			"file" : "/home/apaaris/comp/project2_handout/2d-linFEM/build/IGL-prefix/src/IGL-stamp/IGL-configure.rule"
+		},
+		{
+			"file" : "/home/apaaris/comp/project2_handout/2d-linFEM/build/IGL-prefix/src/IGL-stamp/IGL-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"IGL"
+		],
+		"name" : "IGL"
+	}
+}

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmidpoint.a  CMakeFiles/midpoint.dir/midpoint/midpoint.cpp.o
+/usr/bin/ranlib libmidpoint.a

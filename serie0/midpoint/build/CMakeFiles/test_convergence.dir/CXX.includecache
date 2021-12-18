@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../midpoint/midpoint.hpp
+
+../writer.hpp
+vector
+-
+string
+-
+fstream
+-
+limits
+-
+iomanip
+-
+
+/home/apaaris/eth/comp/serie0/midpoint/test_convergence/test_convergence.cpp
+midpoint.hpp
+/home/apaaris/eth/comp/serie0/midpoint/test_convergence/midpoint.hpp
+writer.hpp
+/home/apaaris/eth/comp/serie0/midpoint/test_convergence/writer.hpp
+vector
+-
+math.h
+-
+iostream
+-
+

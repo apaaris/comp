@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/apaaris/eth/comp/serie0/midpoint/midpoint/midpoint.cpp
+midpoint.hpp
+/home/apaaris/eth/comp/serie0/midpoint/midpoint/midpoint.hpp
+
+/home/apaaris/eth/comp/serie0/midpoint/midpoint/midpoint.hpp
+

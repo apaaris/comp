@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/harmonic_oscill.dir/harmonic_oscill.cpp.o  -o harmonic_oscill 

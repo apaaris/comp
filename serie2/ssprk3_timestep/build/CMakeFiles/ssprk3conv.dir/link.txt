@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/ssprk3conv.dir/ssprk3conv.cpp.o  -o ssprk3conv 

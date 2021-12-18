@@ -1,0 +1,5 @@
+/home/apaaris/eth/comp/serie2/ssprk3_timestep/build/CMakeFiles/rebuild_cache.dir
+/home/apaaris/eth/comp/serie2/ssprk3_timestep/build/CMakeFiles/edit_cache.dir
+/home/apaaris/eth/comp/serie2/ssprk3_timestep/build/CMakeFiles/ssprk3conv.dir
+/home/apaaris/eth/comp/serie2/ssprk3_timestep/build/CMakeFiles/ssprk3.dir
+/home/apaaris/eth/comp/serie2/ssprk3_timestep/build/CMakeFiles/Eigen.dir
